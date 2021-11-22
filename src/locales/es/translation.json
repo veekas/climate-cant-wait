@@ -6,6 +6,7 @@
   "Tell us everything": "Cuéntanos todo",
   "Contact": "Contacto",
   "Do you have any question? Feel free to reach out.": "¿Tienes alguna pregunta? No dude en contactarnos",
+  "Feel free to reach out directly while we finish the website.": "¿Tienes alguna pregunta? No dude en contactarnos",
   "Let's Chat": "Charlemos",
   "Application Security": "Seguridad de la aplicación",
   "Software Principles": "Principios de software",
@@ -19,10 +20,14 @@
   "Learn more": "Más información",
   "Get started": "Comenzar",
   "Submit": "Enviar",
-  "Message" : "Mensaje",
+  "Message": "Mensaje",
   "Your Message": "Tu Mensaje",
-  "Name" : "Nombre",
+  "Name": "Nombre",
   "Your Name": "Tu nombre",
-  "Email" : "Email",
-  "Your Email": "Tu correo electrónico"
+  "Email": "Email",
+  "Your Email": "Tu correo electrónico",
+  "Climate Can't Wait": "Clima No Puedo Esperar",
+  "This website is under construction": "Esta página web está en construcción",
+  "Feel free to contact us while we're putting the finishing touches on our website.": "No dude en contactarnos mientras damos los toques finales a nuestro sitio web.",
+  "If your organization is interested in joining Climate Can't Wait 2022, please email us below.": "Si su organización está interesada en unirse a Climate Can't Wait 2022, envíenos un correo electrónico a continuación."
 }

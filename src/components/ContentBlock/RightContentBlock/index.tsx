@@ -17,6 +17,8 @@ const RightBlock = ({
   button,
   icon,
   t,
+  scrollTarget = "about",
+  onClick,
   id,
 }: ContentBlockProps) => {
   const scrollTo = (id: string) => {
@@ -25,6 +27,7 @@ const RightBlock = ({
       behavior: "smooth",
     });
   };
+
   return (
     <RightBlockContainer>
       <Fade direction="right">
@@ -41,7 +44,7 @@ const RightBlock = ({
                         key={id}
                         color={item.color}
                         fixedWidth={true}
-                        onClick={() => scrollTo("about")}
+                        onClick={onClick || (() => scrollTo(scrollTarget))}
                       >
                         {t(item.title)}
                       </Button>

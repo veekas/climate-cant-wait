@@ -54,10 +54,12 @@ const Footer = ({ t }: any) => {
               <Language>{t("Contact")}</Language>
               <Large to="/">{t("Tell us everything")}</Large>
               <Para>
-                {t(`Do you have any question? Feel free to reach out.`)}
+                {t(
+                  `If your organization is interested in joining Climate Can't Wait 2022, please email us below.`
+                )}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
-                <Chat>{t(`Let's Chat`)}</Chat>
+              <a href="mailto:info@350Brooklyn.org">
+                <Chat>{t(`Email Us`)}</Chat>
               </a>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>

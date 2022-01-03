@@ -17,7 +17,6 @@ export const Title = styled("h4")`
 `;
 
 export const NavLink = styled(Link)`
-  transition: all 0.2s ease-in-out;
 
   &:hover,
   &:active,
@@ -47,12 +46,10 @@ export const Large = styled(Link)<any>`
   font-size: 16px;
   color: #000;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
   text-transform: capitalize;
   line-height: 24px;
   display: block;
   margin-bottom: 0.625rem;
-  transition: all 0.3s ease-in-out;
   max-width: max-content;
 
   &:hover {
@@ -68,7 +65,6 @@ export const Chat = styled("p")`
   border-bottom: 1px solid #000000;
   cursor: pointer;
   margin-top: 1rem;
-  transition: all 0.3s ease-in-out;
 
   &:hover {
     border-bottom: 1px solid #FF4040;
@@ -88,7 +84,6 @@ export const FooterContainer = styled("div")`
   justify-content: space-between;
   text-align: center;
   align-items: center;
-  transition: all 0.1s ease-in-out;
 
   a {
     &:hover,
@@ -138,7 +133,6 @@ export const Label = styled("label")`
 
 export const LanguageSwitch = styled("div")<any>`
   cursor: pointer;
-  transition: all 0.1s ease-in-out;
 
   &:hover,
   &:active,
@@ -153,4 +147,8 @@ export const LanguageSwitchContainer = styled("div")`
   display: flex;
   justify-content: space-between;
   width: 85px;
+`;
+
+export const OrgNames = styled("p")`
+  font-size: 0.75rem;
 `;

@@ -19,6 +19,7 @@ import {
   // Label,
   // LanguageSwitch,
   // LanguageSwitchContainer,
+  OrgNames,
 } from "./styles";
 
 // interface SocialLinkProps {
@@ -90,7 +91,26 @@ const Footer = ({ t }: any) => {
                 />
               </LogoContainer>
             </NavLink>
-            {/* <FooterContainer>
+            <Row justify="space-between" align="middle">
+              <OrgNames>
+                Climate Can't Wait is a collaboration between 350NJ-Rockland,
+                350NYC, 350Brooklyn, Citizen Action of New York, Divest NY,
+                Empire State Indivisible, Energy Democracy Alliance, Food &
+                Water Watch, For the Many, Forest Hills Green Team, Fossil Fuel
+                Subsidies Coalition, Hudson Center for Community and
+                Environment, Indivisible Harlem, Indivisible Nation BK,
+                Indivisible Scarsdale, Mid Hudson Valley DSA, New York
+                Communities for Change, New York Lawyers for the Public
+                Interest, NY Renews, New York State Council of Churches, New
+                York Youth Climate Leaders, NYCD16 Indivisible, PAUSE, People’s
+                Climate Movement-NY, Professional Staff Congress CUNY, Queens
+                Climate Project, Rockland United, Sheridan Hollow Alliance for
+                Renewable Energy (SHARE), Sunrise Movement NYC, Tompkins County
+                Climate Protection Initiative, WE ACT for Environmental Justice,
+                WESPAC Foundation
+              </OrgNames>
+            </Row>
+            {/*
               <SocialLink
                 href="https://twitter.com/climatecantwait2022" // TODO: get these handles
                 src="twitter.svg"
@@ -106,7 +126,7 @@ const Footer = ({ t }: any) => {
                 src="medium.svg"
                 // hidden
               />
-            </FooterContainer> */}
+            */}
           </Row>
         </Container>
       </Extra>

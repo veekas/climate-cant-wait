@@ -68,7 +68,6 @@ export const Menu = styled("h5")`
 export const CustomNavLinkSmall = styled(NavLink)`
   font-size: 1.2rem;
   color: #000000;
-  transition: color 0.2s ease-in;
   margin: 0.5rem 1rem;
 
   @media only screen and (max-width: 768px) {
@@ -91,7 +90,6 @@ export const Outline = styled(MenuOutlined)<any>`
 
 export const Span = styled("span")`
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
 
   &:hover,
   &:active,
@@ -105,7 +103,6 @@ export const Span = styled("span")`
 export const SpanLink = styled(Link)`
   cursor: pointer;
   color: #000000;
-  transition: all 0.3s ease-in-out;
 
   &:hover,
   &:active,

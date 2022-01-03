@@ -24,7 +24,7 @@ const ContentBlock = lazy(() => import("../../components/ContentBlock"));
   {
   "section": "idk",
   "title": "Bill Package",
-  "text": "",
+  "text": "", 
   "button": [
     {
       "title": "Join Us"
@@ -59,7 +59,6 @@ const Bills = () => {
         content={Bill1Content.text}
         contact={Bill1Content.contact}
         section={Bill1Content.section}
-        icon="ccw2022_logo_color.svg"
         id="bill1"
       />
       <ContentBlock
@@ -68,7 +67,6 @@ const Bills = () => {
         content={Bill2Content.text}
         contact={Bill2Content.contact}
         section={Bill2Content.section}
-        icon="ccw2022_logo_color.svg"
         id="bill2"
       />
       <ContentBlock
@@ -77,7 +75,6 @@ const Bills = () => {
         content={Bill3Content.text}
         contact={Bill3Content.contact}
         section={Bill3Content.section}
-        icon="ccw2022_logo_color.svg"
         id="bill3"
       />
       <ContentBlock
@@ -109,7 +106,6 @@ const Bills = () => {
         }
         contact={<>Contact Stephan Edel, NYRenews, stephan@NYRenews.org</>}
         section={Bill4Content.section}
-        icon="ccw2022_logo_color.svg"
         id="bill4"
       />
       <ContentBlock
@@ -118,7 +114,6 @@ const Bills = () => {
         content={Bill5Content.text}
         contact={Bill5Content.contact}
         section={Bill5Content.section}
-        icon="ccw2022_logo_color.svg"
         id="bill5"
       />
       <ContentBlock
@@ -127,7 +122,6 @@ const Bills = () => {
         content={Bill6Content.text}
         contact={Bill6Content.contact}
         section={Bill6Content.section}
-        icon="ccw2022_logo_color.svg"
         id="bill6"
       />
       <ContentBlock
@@ -136,7 +130,6 @@ const Bills = () => {
         content={Bill7Content.text}
         contact={Bill7Content.contact}
         section={Bill7Content.section}
-        icon="ccw2022_logo_color.svg"
         id="bill7"
       />
       <ContentBlock
@@ -145,7 +138,6 @@ const Bills = () => {
         content={Bill8Content.text}
         contact={Bill8Content.contact}
         section={Bill8Content.section}
-        icon="ccw2022_logo_color.svg"
         id="bill8"
       />
       <ContentBlock
@@ -154,7 +146,6 @@ const Bills = () => {
         content={Bill9Content.text}
         contact={Bill9Content.contact}
         section={Bill9Content.section}
-        icon="ccw2022_logo_color.svg"
         id="bill9"
       />
       <ContentBlock
@@ -163,7 +154,6 @@ const Bills = () => {
         content={Bill10Content.text}
         contact={Bill10Content.contact}
         section={Bill10Content.section}
-        icon="ccw2022_logo_color.svg"
         id="bill10"
       />
       <ContentBlock
@@ -172,7 +162,6 @@ const Bills = () => {
         content={Bill11Content.text}
         contact={Bill11Content.contact}
         section={Bill11Content.section}
-        icon="ccw2022_logo_color.svg"
         id="bill11"
       />
       <ContentBlock
@@ -181,7 +170,6 @@ const Bills = () => {
         content={Bill12Content.text}
         contact={Bill12Content.contact}
         section={Bill12Content.section}
-        icon="ccw2022_logo_color.svg"
         id="bill12"
       />
     </Container>

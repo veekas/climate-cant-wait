@@ -8,4 +8,6 @@ const ContentBlock = (props: ContentBlockProps) => {
   return null;
 };
 
+export { IntroContentContainer } from "./styles";
+
 export default ContentBlock;

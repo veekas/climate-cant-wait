@@ -1,12 +1,13 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "section": "idk",
+  "title": "Join us on January 25th",
+  "text": "Organizations from across New York State are coming together to demand climate justice in our state.",
   "button": [
     {
-      "title": "Explore"
+      "title": "Join Us"
     },
     {
-      "title": "Learn more",
+      "title": "Learn More",
       "color": "#fff"
     }
   ]

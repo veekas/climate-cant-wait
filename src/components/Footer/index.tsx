@@ -1,109 +1,58 @@
-import { Row, Col } from "antd";
+import { Row /*Col*/ } from "antd";
 import { withTranslation } from "react-i18next";
 import { SvgIcon } from "../../common/SvgIcon";
 import Container from "../../common/Container";
 
-import i18n from "i18next";
+// import i18n from "i18next";
 import {
-  FooterSection,
-  Title,
+  // FooterSection,
+  // Title,
   NavLink,
   Extra,
   LogoContainer,
-  Para,
-  Large,
-  Chat,
-  Empty,
-  FooterContainer,
-  Language,
-  Label,
-  LanguageSwitch,
-  LanguageSwitchContainer,
+  // Para,
+  // Large,
+  // Chat,
+  // Empty,
+  // FooterContainer,
+  // Language,
+  // Label,
+  // LanguageSwitch,
+  // LanguageSwitchContainer,
 } from "./styles";
 
-interface SocialLinkProps {
-  href: string;
-  src: string;
-}
+// interface SocialLinkProps {
+//   href: string;
+//   src: string;
+//   hidden?: boolean;
+// }
 
 const Footer = ({ t }: any) => {
-  const handleChange = (language: string) => {
-    i18n.changeLanguage(language);
-  };
+  // const handleChange = (language: string) => {
+  //   i18n.changeLanguage(language);
+  // };
 
-  const SocialLink = ({ href, src }: SocialLinkProps) => {
-    return (
-      <a
-        href={href}
-        target="_blank"
-        rel="noopener noreferrer"
-        key={src}
-        aria-label={src}
-      >
-        <SvgIcon src={src} width="25px" height="25px" />
-      </a>
-    );
-  };
+  // const SocialLink = ({ hidden, href, src }: SocialLinkProps) => {
+  //   return (
+  //     <a
+  //       href={href}
+  //       target="_blank"
+  //       rel="noopener noreferrer"
+  //       key={src}
+  //       aria-label={src}
+  //       aria-hidden={hidden}
+  //       style={hidden ? { display: "none" } : undefined}
+  //     >
+  //       <SvgIcon src={src} width="25px" height="25px" aria-hidden={hidden} />
+  //     </a>
+  //   );
+  // };
 
   return (
     <>
-      <FooterSection>
+      {/* <FooterSection>
         <Container>
           <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
-              <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
-              <Para>
-                {t(
-                  `If your organization is interested in joining Climate Can't Wait 2022, please email us below.`
-                )}
-              </Para>
-              <a href="mailto:info@350Brooklyn.org">
-                <Chat>{t(`Email Us`)}</Chat>
-              </a>
-            </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Policy")}</Title>
-              <Large to="/" left="true">
-                {t("Application Security")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Software Principles")}
-              </Large>
-            </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
-              <Empty />
-              <Large left="true" to="/">
-                {t("Support Center")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Customer Support")}
-              </Large>
-            </Col>
-          </Row>
-          <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
-              <Empty />
-              <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
-            </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Company")}</Title>
-              <Large left="true" to="/">
-                {t("About")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Blog")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Press")}
-              </Large>
-              <Large left="true" to="/">
-                {t("Careers & Culture")}
-              </Large>
-            </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Label htmlFor="select-lang">{t("Language")}</Label>
               <LanguageSwitchContainer>
@@ -127,48 +76,37 @@ const Footer = ({ t }: any) => {
             </Col>
           </Row>
         </Container>
-      </FooterSection>
+      </FooterSection> */}
       <Extra>
-        <Container border={true}>
-          <Row
-            justify="space-between"
-            align="middle"
-            style={{ paddingTop: "3rem" }}
-          >
+        <Container border={false}>
+          <Row justify="space-between" align="middle">
             <NavLink to="/">
               <LogoContainer>
                 <SvgIcon
-                  src="logo.svg"
+                  src="ccw2022_logo_color.svg"
                   aria-label="homepage"
-                  width="101px"
-                  height="64px"
+                  // width="101px"
+                  height="100px"
                 />
               </LogoContainer>
             </NavLink>
-            <FooterContainer>
+            {/* <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
-                src="github.svg"
-              />
-              <SocialLink
-                href="https://twitter.com/Adrinlolx"
+                href="https://twitter.com/climatecantwait2022" // TODO: get these handles
                 src="twitter.svg"
+                hidden
               />
               <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
-                src="linkedin.svg"
-              />
-              <SocialLink
-                href="https://medium.com/@lashakakabadze/"
+                href="https://medium.com/@climatecantwait/" // TODO: get these handles
                 src="medium.svg"
+                // hidden
               />
-              <a href="https://www.buymeacoffee.com/adrinlol">
-                <img
-                  src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=adrinlol&button_colour=FF5F5F&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"
-                  alt="Buy me a pizza"
-                />
-              </a>
-            </FooterContainer>
+              <SocialLink
+                href="https://medium.com/@climatecantwait/" // TODO: get these handles
+                src="medium.svg"
+                // hidden
+              />
+            </FooterContainer> */}
           </Row>
         </Container>
       </Extra>

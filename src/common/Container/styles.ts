@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const StyledContainer = styled("div")<any>`
-  position: relative;
   width: 100%;
   max-width: 1200px;
   margin-right: auto;
@@ -16,11 +15,23 @@ export const StyledContainer = styled("div")<any>`
 
   @media only screen and (max-width: 768px) {
     max-width: calc(100% - 38px);
-    padding: 0 18px;
+    padding: 0 20px;
   }
 
   @media only screen and (max-width: 414px) {
     max-width: 100%;
-    padding: 0 18px;
+    padding: 0 20px;
   }
+`;
+
+export const StyledHeaderContainer = styled(StyledContainer)<any>`
+@media only screen and (max-width: 768px) {
+  max-width: calc(100% - 38px);
+  padding: 0 20px 0 0;
+}
+
+@media only screen and (max-width: 414px) {
+  max-width: 100%;
+  padding: 0 20px 0 0;
+}
 `;

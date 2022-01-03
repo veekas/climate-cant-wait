@@ -14,6 +14,7 @@ import {
 const RightBlock = ({
   title,
   content,
+  contact,
   button,
   icon,
   t,
@@ -35,7 +36,8 @@ const RightBlock = ({
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
               <h6>{t(title)}</h6>
-              <Content>{t(content)}</Content>
+              <Content>{content}</Content>
+              <Content>{contact}</Content>
               <ButtonWrapper>
                 {typeof button === "object" &&
                   button.map((item: any, id: number) => {

@@ -3,22 +3,21 @@ import { createGlobalStyle } from "styled-components";
 export const Styles = createGlobalStyle`
 
     @font-face {
-        font-family: "Motiva Sans Light";
-        src: url("/fonts/Motiva-Sans-Light.ttf") format("truetype");
+        font-family: 'Klima Regular';
+        src: url('fonts/klima-regular-web.woff2');
         font-style: normal;
     }
-
+    
     @font-face {
-        font-family: "Motiva Sans Bold";
-        src: url("/fonts/Motiva-Sans-Bold.ttf") format("truetype");
-        font-style: normal;
+        font-family: 'Klima Bold';
+        src: url('fonts/klima-bold-web.woff2');
+        font-weight: bold;
     }
-
 
     body,
     html,
     a {
-        font-family: 'Motiva Sans Light', sans-serif;
+        font-family: 'Klima Regular', sans-serif;
     }
 
 
@@ -32,7 +31,7 @@ export const Styles = createGlobalStyle`
     }
 
     a:hover {
-        color: #18216d;
+        color: #000000;
     }
 
     input,
@@ -47,7 +46,7 @@ export const Styles = createGlobalStyle`
 
         :focus-within {
             background: none;
-            box-shadow: #2e186a 0px 0px 0px 1px;
+            box-shadow: #ED1C24 0px 0px 0px 1px;
         }
     }
 
@@ -57,8 +56,8 @@ export const Styles = createGlobalStyle`
     h4,
     h5,
     h6 {
-        font-family: 'Motiva Sans Bold', serif;
-        color: #18216d;
+        font-family: 'Klima Bold', serif;
+        color: #000000;
         font-size: 56px;
         line-height: 1.18;
 
@@ -72,7 +71,7 @@ export const Styles = createGlobalStyle`
     }
 
     p {
-        color: #18216d;
+        color: #000000;
         font-size: 21px;        
         line-height: 1.41;
     }
@@ -84,10 +83,10 @@ export const Styles = createGlobalStyle`
     a {
         text-decoration: none;
         outline: none;
-        color: #2E186A;
+        color: #ED1C24;
 
         :hover {
-            color: #2e186a;
+            color: #ED1C24;
         }
     }
     

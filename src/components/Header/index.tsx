@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Row, Col, Drawer } from "antd";
 import { withTranslation } from "react-i18next";
-import Container from "../../common/Container";
+import { HeaderContainer } from "../../common/Container";
 import { SvgIcon } from "../../common/SvgIcon";
 import { Button } from "../../common/Button";
 import {
@@ -14,6 +14,7 @@ import {
   Label,
   Outline,
   Span,
+  SpanLink,
 } from "./styles";
 
 const Header = ({ t }: any) => {
@@ -37,14 +38,11 @@ const Header = ({ t }: any) => {
     };
     return (
       <>
-        <CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <Span>{t("About")}</Span>
+        <CustomNavLinkSmall>
+          <SpanLink to="/home#about">{t("About")}</SpanLink>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>{t("Mission")}</Span>
-        </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <Span>{t("Product")}</Span>
+        <CustomNavLinkSmall>
+          <SpanLink to="/bills">{t("Bills")}</SpanLink>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
@@ -60,10 +58,10 @@ const Header = ({ t }: any) => {
 
   return (
     <HeaderSection>
-      <Container>
+      <HeaderContainer>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" width="101px" height="64px" />
+            <SvgIcon src="ccw2022_logo_color.svg" height="100px" />
           </LogoContainer>
           <NotHidden>
             <MenuItem />
@@ -85,7 +83,7 @@ const Header = ({ t }: any) => {
           </Col>
           <MenuItem />
         </Drawer>
-      </Container>
+      </HeaderContainer>
     </HeaderSection>
   );
 };

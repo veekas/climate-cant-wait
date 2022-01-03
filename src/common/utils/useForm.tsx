@@ -17,6 +17,7 @@ export const useForm = (validate: any) => {
   const handleSubmit = (event: React.ChangeEvent<HTMLFormElement>) => {
     event.preventDefault();
     setErrors(validate(values));
+    console.log("values", values);
     // Your url for API
     const url = "";
     if (Object.keys(values).length === 3) {

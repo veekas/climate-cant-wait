@@ -11,7 +11,6 @@ export const ScrollUpContainer = styled("div")<any>`
   text-align: center;
   align-items: center;
   border-radius: 4px;
-  transition: all 0.3s ease-in-out;
   visibility: ${(p) => (p.show ? "visible" : "hidden")};
   opacity: ${(p) => (p.show ? "1" : "0")};
   display: flex;

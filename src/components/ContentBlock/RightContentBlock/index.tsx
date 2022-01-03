@@ -14,6 +14,7 @@ import {
 const RightBlock = ({
   title,
   content,
+  contact,
   button,
   icon,
   t,
@@ -27,15 +28,19 @@ const RightBlock = ({
       behavior: "smooth",
     });
   };
+  const textWidth = icon ? 11 : 24;
 
   return (
     <RightBlockContainer>
       <Fade direction="right">
         <Row justify="space-between" align="middle" id={id}>
-          <Col lg={11} md={11} sm={11} xs={24}>
+          <Col lg={textWidth} md={textWidth} sm={textWidth} xs={24}>
             <ContentWrapper>
               <h6>{t(title)}</h6>
-              <Content>{t(content)}</Content>
+              <Content>{content}</Content>
+              <Content>
+                <i>{contact}</i>
+              </Content>
               <ButtonWrapper>
                 {typeof button === "object" &&
                   button.map((item: any, id: number) => {
@@ -43,6 +48,7 @@ const RightBlock = ({
                       <Button
                         key={id}
                         color={item.color}
+                        href={item.href}
                         fixedWidth={true}
                         onClick={onClick || (() => scrollTo(scrollTarget))}
                       >
@@ -53,9 +59,11 @@ const RightBlock = ({
               </ButtonWrapper>
             </ContentWrapper>
           </Col>
-          <Col lg={11} md={11} sm={12} xs={24}>
-            <SvgIcon src={icon} width="100%" height="100%" />
-          </Col>
+          {icon && (
+            <Col lg={11} md={11} sm={11} xs={24}>
+              <SvgIcon src={icon} width="100%" height="100%" />
+            </Col>
+          )}
         </Row>
       </Fade>
     </RightBlockContainer>

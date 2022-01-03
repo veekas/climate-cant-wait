@@ -7,14 +7,15 @@ export interface ButtonProps {
   color?: string;
   fixedWidth?: boolean;
   name?: string;
+  href?: string;
   children: React.ReactNode;
   onClick?: () => void;
 }
 
 export interface SvgIconProps {
   src: string;
-  width: string;
-  height: string;
+  width?: string;
+  height?: string;
 }
 
 export interface InputProps {

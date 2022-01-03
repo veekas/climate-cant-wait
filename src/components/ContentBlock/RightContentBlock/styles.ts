@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const RightBlockContainer = styled("section")`
   position: relative;
-  padding: 10rem 0 8rem;
+  padding: 4rem 0 4rem;
 
   @media only screen and (max-width: 1024px) {
-    padding: 8rem 0 6rem;
+    padding: 4rem 0 4rem;
   }
 
   @media only screen and (max-width: 768px) {
@@ -19,7 +19,7 @@ export const Content = styled("p")`
 
 export const ContentWrapper = styled("div")`
   position: relative;
-  max-width: 540px;
+  // max-width: 540px;
 
   @media only screen and (max-width: 575px) {
     padding-bottom: 4rem;

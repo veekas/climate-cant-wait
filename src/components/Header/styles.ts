@@ -12,6 +12,12 @@ export const HeaderSection = styled("header")`
 
 export const LogoContainer = styled(Link)`
   display: flex;
+  justify-content: center;
+  
+  h1 { // temp until we confirm a logo
+    font-size: 24px;
+    margin-top: 1rem;
+  }
 `;
 
 export const NavLink = styled("div")`

@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { Row, Col, Drawer } from "antd";
+// import { useState } from "react";
+import { Row, /*Col, Drawer*/ } from "antd";
 import { withTranslation } from "react-i18next";
 import { HeaderContainer } from "../../common/Container";
 import { SvgIcon } from "../../common/SvgIcon";
@@ -18,15 +18,15 @@ import {
 } from "./styles";
 
 const Header = ({ t }: any) => {
-  const [visible, setVisibility] = useState(false);
+  // const [visible, setVisibility] = useState(false);
 
-  const showDrawer = () => {
-    setVisibility(!visible);
-  };
+  // const showDrawer = () => {
+  //   setVisibility(!visible);
+  // };
 
-  const onClose = () => {
-    setVisibility(!visible);
-  };
+  // const onClose = () => {
+  //   setVisibility(!visible);
+  // };
 
   const MenuItem = () => {
     const scrollTo = (id: string) => {
@@ -63,14 +63,14 @@ const Header = ({ t }: any) => {
           <LogoContainer to="/" aria-label="homepage">
             <SvgIcon src="ccw2022_logo_color.svg" height="100px" />
           </LogoContainer>
-          <NotHidden>
+          {/* <NotHidden>
             <MenuItem />
-          </NotHidden>
-          <Burger onClick={showDrawer}>
+          </NotHidden> */}
+          {/* <Burger onClick={showDrawer}>
             <Outline />
-          </Burger>
+          </Burger> */}
         </Row>
-        <Drawer closable={false} visible={visible} onClose={onClose}>
+        {/* <Drawer closable={false} visible={visible} onClose={onClose}>
           <Col style={{ marginBottom: "2.5rem" }}>
             <Label onClick={onClose}>
               <Col span={12}>

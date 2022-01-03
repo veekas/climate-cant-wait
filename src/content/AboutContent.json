@@ -1,3 +1,8 @@
 {
-  "button": "Join Us"
+  "button": [
+    {
+      "title": "Join Us",
+      "href": "https://actionnetwork.org/events/climate-cant-wait-mobilization-january-2022"
+    }
+  ]
 }

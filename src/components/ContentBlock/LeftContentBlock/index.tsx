@@ -15,6 +15,7 @@ import {
 const LeftContentBlock = ({
   icon,
   title,
+  button,
   content,
   contact,
   section,
@@ -39,6 +40,7 @@ const LeftContentBlock = ({
               <Content>
                 <i>{contact}</i>
               </Content>
+              {/* {button && <Button onClick={onClick}>{button}</Button>} */}
               <ServiceWrapper>
                 <Row justify="space-between">
                   {typeof section === "object" &&

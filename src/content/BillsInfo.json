@@ -1,6 +1,12 @@
 {
   "section": "Our Package of Bills and Proposals",
   "title": "Our Package of Bills and Proposals",
-  "button": "Learn More",
+  "button": [
+    {
+      "title": "Learn More",
+      "color": "#fff",
+      "href": "/bills"
+    }
+  ],
   "text": "Climate Can't Wait 2022 has put together a bold package of 11 bills and one proposal to further climate justice in New York."
 }

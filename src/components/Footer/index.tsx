@@ -1,6 +1,6 @@
 import { Row /*Col*/ } from "antd";
 import { withTranslation } from "react-i18next";
-// import { SvgIcon } from "../../common/SvgIcon";
+import { SvgIcon } from "../../common/SvgIcon";
 import Container from "../../common/Container";
 
 // import i18n from "i18next";
@@ -74,7 +74,7 @@ const Footer = ({ t }: any) => {
                   />
                 </LanguageSwitch>
               </LanguageSwitchContainer>
-            </Col> */}
+            </Col>
           </Row>
         </Container>
       </FooterSection> */}

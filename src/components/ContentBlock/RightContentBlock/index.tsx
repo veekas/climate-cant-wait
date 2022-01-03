@@ -48,6 +48,7 @@ const RightBlock = ({
                       <Button
                         key={id}
                         color={item.color}
+                        href={item.href}
                         fixedWidth={true}
                         onClick={onClick || (() => scrollTo(scrollTarget))}
                       >

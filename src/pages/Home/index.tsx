@@ -4,8 +4,8 @@ import AboutContent from "../../content/AboutContent.json";
 import ContactContent from "../../content/ContactContent.json";
 import BillsInfo from "../../content/BillsInfo.json";
 
-// const Contact = lazy(() => import("../../components/ContactForm"));
-// const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
+const Contact = lazy(() => import("../../components/ContactForm"));
+const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
@@ -30,7 +30,7 @@ const Home = () => {
           button={IntroContent.button}
           icon="ccw2022_logo_color.svg"
           id="intro"
-          scrollTarget="contact"
+          scrollTarget="about"
         />
       </FullBleedContainer>
       <Container>
@@ -67,7 +67,13 @@ const Home = () => {
         <ContentBlock
           type="left"
           title={BillsInfo.title}
-          content={BillsInfo.text}
+          content={
+            <>
+              Climate Can't Wait 2022 has put together a bold package of 11
+              bills and one proposal to further climate justice in New York.{" "}
+              <a href="/bills">Click here to learn more.</a>
+            </>
+          }
           button={BillsInfo.button}
           icon="ccw2022_logo_color.svg"
           id="intro"

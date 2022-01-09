@@ -1,10 +1,10 @@
 import { lazy } from "react";
 import IntroContent from "../../content/IntroContent.json";
 import AboutContent from "../../content/AboutContent.json";
-import ContactContent from "../../content/ContactContent.json";
+// import ContactContent from "../../content/ContactContent.json";
 import BillsInfo from "../../content/BillsInfo.json";
 
-const Contact = lazy(() => import("../../components/ContactForm"));
+// const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
@@ -79,11 +79,11 @@ const Home = () => {
           id="intro"
           scrollTarget="contact"
         />
-        <Contact
+        {/* <Contact
           title={ContactContent.title}
           content={ContactContent.text}
           id="contact"
-        />
+        /> */}
       </Container>
     </>
   );

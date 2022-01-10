@@ -3,7 +3,7 @@ import { Row, Col, Drawer } from "antd";
 import { withTranslation } from "react-i18next";
 import { HeaderContainer } from "../../common/Container";
 import { SvgIcon } from "../../common/SvgIcon";
-import { Button } from "../../common/Button";
+// import { Button } from "../../common/Button";
 import {
   HeaderSection,
   LogoContainer,
@@ -13,7 +13,7 @@ import {
   CustomNavLinkSmall,
   Label,
   Outline,
-  Span,
+  // Span,
   SpanLink,
 } from "./styles";
 
@@ -29,13 +29,13 @@ const Header = ({ t }: any) => {
   };
 
   const MenuItem = () => {
-    const scrollTo = (id: string) => {
-      const element = document.getElementById(id) as HTMLDivElement;
-      element.scrollIntoView({
-        behavior: "smooth",
-      });
-      setVisibility(false);
-    };
+    // const scrollTo = (id: string) => {
+    //   const element = document.getElementById(id) as HTMLDivElement;
+    //   element.scrollIntoView({
+    //     behavior: "smooth",
+    //   });
+    //   setVisibility(false);
+    // };
     return (
       <>
         <CustomNavLinkSmall>
@@ -44,14 +44,14 @@ const Header = ({ t }: any) => {
         <CustomNavLinkSmall>
           <SpanLink to="/bills">{t("Bills")}</SpanLink>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall
+        {/* <CustomNavLinkSmall
           style={{ width: "180px" }}
           onClick={() => scrollTo("contact")}
         >
           <Span>
             <Button>{t("Contact")}</Button>
           </Span>
-        </CustomNavLinkSmall>
+        </CustomNavLinkSmall> */}
       </>
     );
   };

@@ -2,11 +2,17 @@ import { BackgroundImage, StyledFullBleedContainer } from "./styles";
 
 interface Props {
   children: any;
+  backgroundImage?: string;
+  backgroundColor?: string;
 }
 
-const FullBleedContainer = ({ children }: Props) => (
-  <StyledFullBleedContainer>
-    <BackgroundImage src="/Craig-Fildes-capitol.jpeg" />
+const FullBleedContainer = ({
+  children,
+  backgroundImage,
+  backgroundColor,
+}: Props) => (
+  <StyledFullBleedContainer backgroundColor={backgroundColor}>
+    <BackgroundImage src={backgroundImage} />
     {children}
   </StyledFullBleedContainer>
 );

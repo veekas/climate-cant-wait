@@ -153,11 +153,11 @@ export const OrgNames = styled("p")`
   font-size: 0.75rem;
 `;
 
-export const Attribution = styled("div")`
-  color: rgb(213, 213, 213);
+export const Attribution = styled("p")`
+  color: rgb(241, 242, 243);
   font-size: 0.75rem;
 
   a {
-    color: rgb(213, 213, 213);
+    color: rgb(241, 242, 243);
   }
 `

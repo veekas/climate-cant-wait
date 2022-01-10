@@ -5,6 +5,7 @@ export const StyledFullBleedContainer = styled("section")<any>`
   position: relative;
   overflow: hidden;
   padding: 0 5% 0 10%;
+  background-color: ${props => props.backgroundColor}
 `;
 
 export const BackgroundImage = styled("img")<any>`

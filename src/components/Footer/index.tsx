@@ -98,7 +98,7 @@ const Footer = ({ t }: any) => {
                 350NYC, 350Brooklyn, Citizen Action of New York, Divest NY,
                 Empire State Indivisible, Energy Democracy Alliance, Food &
                 Water Watch, For the Many, Forest Hills Green Team, Fossil Fuel
-                Subsidies Coalition, Hudson Center for Community and
+                Subsidies Coalition, El Puente, Hudson Center for Community and
                 Environment, Indivisible Harlem, Indivisible Nation BK,
                 Indivisible Scarsdale, Mid Hudson Valley DSA, New York
                 Communities for Change, New York Lawyers for the Public
@@ -112,8 +112,7 @@ const Footer = ({ t }: any) => {
               </OrgNames>
               <Attribution>
                 Website built by{" "}
-                <a href="https://veekasmeansprogress.com">Veekas Ashoka</a>{" "}
-                based on the <a href="https://landy.website">Landy template</a>
+                <a href="https://veekasmeansprogress.com">Veekas Ashoka</a>
               </Attribution>
             </Row>
             {/*

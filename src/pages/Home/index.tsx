@@ -22,7 +22,10 @@ const Home = () => {
   return (
     <>
       <ScrollToTop />
-      <FullBleedContainer>
+      <FullBleedContainer
+        backgroundImage="/Craig-Fildes-capitol.jpeg"
+        backgroundColor="#FFFF80"
+      >
         <ContentBlock
           type="right"
           title={IntroContent.title}

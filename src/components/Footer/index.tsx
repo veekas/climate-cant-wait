@@ -20,6 +20,7 @@ import {
   // LanguageSwitch,
   // LanguageSwitchContainer,
   OrgNames,
+  Attribution,
 } from "./styles";
 
 // interface SocialLinkProps {
@@ -107,8 +108,13 @@ const Footer = ({ t }: any) => {
                 Climate Project, Rockland United, Sheridan Hollow Alliance for
                 Renewable Energy (SHARE), Sunrise Movement NYC, Tompkins County
                 Climate Protection Initiative, WE ACT for Environmental Justice,
-                WESPAC Foundation
+                and WESPAC Foundation
               </OrgNames>
+              <Attribution>
+                Website built by{" "}
+                <a href="https://veekasmeansprogress.com">Veekas Ashoka</a>{" "}
+                based on the <a href="https://landy.website">Landy template</a>
+              </Attribution>
             </Row>
             {/*
               <SocialLink

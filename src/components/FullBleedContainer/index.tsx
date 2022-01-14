@@ -12,7 +12,7 @@ const FullBleedContainer = ({
   backgroundColor,
 }: Props) => (
   <StyledFullBleedContainer backgroundColor={backgroundColor}>
-    <BackgroundImage src={backgroundImage} />
+    {backgroundImage ? <BackgroundImage src={backgroundImage} /> : <></>}
     {children}
   </StyledFullBleedContainer>
 );

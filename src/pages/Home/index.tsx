@@ -9,6 +9,7 @@ const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
+const VideoContainer = lazy(() => import("../../components/VideoContainer"));
 const FullBleedContainer = lazy(
   () => import("../../components/FullBleedContainer")
 );
@@ -35,6 +36,19 @@ const Home = () => {
           id="intro"
           scrollTarget="about"
         />
+      </FullBleedContainer>
+      <FullBleedContainer backgroundColor="#fff">
+        <VideoContainer>
+          <iframe
+            width="800"
+            height="450"
+            src="https://www.youtube.com/embed/ek4XFjGYESo"
+            title="video player for 'Climate Can't Wait 2022 Introduction'"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </VideoContainer>
       </FullBleedContainer>
       <Container>
         <MiddleBlock

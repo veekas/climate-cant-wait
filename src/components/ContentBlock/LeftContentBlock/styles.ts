@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const LeftContentSection = styled("section")`
   position: relative;
-  padding: 4rem 0 4rem;
+  padding: 2rem 0 2rem;
 
   @media only screen and (max-width: 1024px) {
-    padding: 4rem 0 4rem;
+    padding: 2rem 0 2rem;
   }
 
   @media only screen and (max-width: 768px) {

@@ -1,6 +1,18 @@
 {
   "section": "Clean Futures Act",
   "title": "Clean Futures Act",
-  "text": "Bans any new major electric generating facility powered by fossil  fuels, subject to extremely narrow exceptions (S5939, Ramos; A6761, Mamdani).",
-  "contact": "Contact  Laura Shindell, Food and Water Watch, lshindell@fwwatch.org"
+  "text": "Bans any new major electric generating facility powered by fossil  fuels, subject to extremely narrow exceptions.",
+  "contact": "Contact  Laura Shindell, Food and Water Watch, lshindell@fwwatch.org",
+  "bills": {
+    "assembly": {
+      "url": "https://nyassembly.gov/leg/?bn=A06761&term=2021",
+      "number": "S5939",
+      "sponsor": "Ramos"
+    },
+    "senate": {
+      "url": "https://www.nysenate.gov/legislation/bills/2021/S5939",
+      "number": "A6761",
+      "sponsor": "Mamdani"
+    }
+  }
 }

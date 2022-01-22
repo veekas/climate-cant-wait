@@ -1,6 +1,18 @@
 {
   "section": "Energy Efficiency, Equity and Jobs",
   "title": "Energy Efficiency, Equity and Jobs",
-  "text": "Requires that Public Service Commission programs  provide job training funds to priority populations, including low-income individuals and  people with disabilities, and sets targets for hiring members of priority populations (S3126,  Parker; A3996, Hunter).",
-  "contact": "Contact Sonal Jessel, We ACT, sonal@weact.org"
+  "text": "Requires that Public Service Commission programs  provide job training funds to priority populations, including low-income individuals and  people with disabilities, and sets targets for hiring members of priority populations.",
+  "contact": "Contact Sonal Jessel, We ACT, sonal@weact.org",
+  "bills": {
+    "assembly": {
+      "url": "https://nyassembly.gov/leg/?bn=A03996&term=2021",
+      "number": "A3996",
+      "sponsor": "Parker"
+    },
+    "senate": {
+      "url": "https://www.nysenate.gov/legislation/bills/2021/s3126",
+      "number": "S3126",
+      "sponsor": "Hunter"
+    }
+  }
 }

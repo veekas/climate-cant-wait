@@ -1,6 +1,18 @@
 {
   "section": "Fossil Fuel Subsidy Elimination Act",
   "title": "Fossil Fuel Subsidy Elimination Act",
-  "text": "Repeals over $330 million in tax exemptions  provided by New York State to the fossil fuel industry. Specifically, the bill would eliminate  many exemptions to the Sales and Use Tax and the Petroleum Business Tax, and would  limit fossil fuel companies’ inclusion in several economic development programs. (S7438,  Krueger, A8483, Cahill).",
-  "contact": "Contact Marisa Guerrero, NRDC/End Fossil Fuel Subsidies Coalition,  mguerrero@nrdc.org"
+  "text": "Repeals over $330 million in tax exemptions  provided by New York State to the fossil fuel industry. Specifically, the bill would eliminate  many exemptions to the Sales and Use Tax and the Petroleum Business Tax, and would  limit fossil fuel companies’ inclusion in several economic development programs.",
+  "contact": "Contact Marisa Guerrero, NRDC/End Fossil Fuel Subsidies Coalition,  mguerrero@nrdc.org",
+  "bills": {
+    "assembly": {
+      "url": "https://nyassembly.gov/leg/?term=2021&bn=A08483",
+      "number": "A8483",
+      "sponsor": "Cahill"
+    },
+    "senate": {
+      "url": "https://www.nysenate.gov/legislation/bills/2021/S7438",
+      "number": "S7438",
+      "sponsor": "Krueger"
+    }
+  }
 }

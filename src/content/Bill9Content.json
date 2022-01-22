@@ -1,6 +1,18 @@
 {
   "section": "New York Build Public Renewables Act",
   "title": "New York Build Public Renewables Act",
-  "text": "Enables the New York Power Authority (NYPA)  to build affordable renewable energy to meet our climate targets and to retrofit public  buildings with weatherization measures, electric heat pumps, and toxic remediation by  2030. This will create between 28,000 and 51,000 jobs, with NYPA requiring prevailing  wages on all projects. (S6453, Parker; A1466, Carroll).",
-  "contact": "Contact Patrick Robbins, Energy  Democracy Alliance, patrickopticon@gmail.com"
+  "text": "Enables the New York Power Authority (NYPA)  to build affordable renewable energy to meet our climate targets and to retrofit public  buildings with weatherization measures, electric heat pumps, and toxic remediation by  2030. This will create between 28,000 and 51,000 jobs, with NYPA requiring prevailing  wages on all projects.",
+  "contact": "Contact Patrick Robbins, Energy  Democracy Alliance, patrickopticon@gmail.com",
+  "bills": {
+    "assembly": {
+      "url": "https://nyassembly.gov/leg/?bn=A01466&term=2021",
+      "number": "A1466",
+      "sponsor": "Carroll"
+    },
+    "senate": {
+      "url": "https://www.nysenate.gov/legislation/bills/2021/S6453",
+      "number": "S6453",
+      "sponsor": "Parker"
+    }
+  }
 }

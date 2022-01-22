@@ -3,6 +3,7 @@ import { withTranslation } from "react-i18next";
 import { SvgIcon } from "../../../common/SvgIcon";
 import { Button } from "../../../common/Button";
 import { ContentBlockProps } from "../types";
+import BillInfo from "../BillInfo";
 import { Fade } from "react-awesome-reveal";
 import {
   RightBlockContainer,
@@ -15,6 +16,7 @@ const RightBlock = ({
   title,
   content,
   contact,
+  bills,
   button,
   icon,
   t,
@@ -37,10 +39,14 @@ const RightBlock = ({
           <Col lg={textWidth} md={textWidth} sm={textWidth} xs={24}>
             <ContentWrapper>
               <h6>{t(title)}</h6>
-              <Content>{content}</Content>
               <Content>
-                <i>{contact}</i>
+                {content} {bills && <BillInfo bills={bills} />}
               </Content>
+              {contact && (
+                <Content>
+                  <i>{contact}</i>
+                </Content>
+              )}
               <ButtonWrapper>
                 {typeof button === "object" &&
                   button.map((item: any, id: number) => {

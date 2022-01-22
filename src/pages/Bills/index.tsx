@@ -68,6 +68,7 @@ const Bills = () => {
           content={Bill1Content.text}
           contact={Bill1Content.contact}
           section={Bill1Content.section}
+          bills={Bill1Content.bills}
           id="bill1"
         />
         <ContentBlock
@@ -84,6 +85,7 @@ const Bills = () => {
           content={Bill3Content.text}
           contact={Bill3Content.contact}
           section={Bill3Content.section}
+          bills={Bill3Content.bills}
           id="bill3"
         />
         <ContentBlock
@@ -108,7 +110,15 @@ const Bills = () => {
                 <li>
                   support for fossil fuel dependent workers and communities; and
                   4) rebates for working New Yorkers and small businesses to
-                  defray increased energy costs. (S4264, Parker; A6967, Cahill).
+                  defray increased energy costs. (
+                  <a href="https://nyassembly.gov/leg/?bn=A06967&term=2021">
+                    A6967, Cahill
+                  </a>
+                  ;{" "}
+                  <a href="https://www.nysenate.gov/legislation/bills/2021/S4264">
+                    S4264, Parker
+                  </a>
+                  )
                 </li>
               </ol>
             </>
@@ -123,6 +133,7 @@ const Bills = () => {
           content={Bill5Content.text}
           contact={Bill5Content.contact}
           section={Bill5Content.section}
+          bills={Bill5Content.bills}
           id="bill5"
         />
         <ContentBlock
@@ -131,6 +142,7 @@ const Bills = () => {
           content={Bill6Content.text}
           contact={Bill6Content.contact}
           section={Bill6Content.section}
+          bills={Bill6Content.bills}
           id="bill6"
         />
         <ContentBlock
@@ -139,6 +151,7 @@ const Bills = () => {
           content={Bill7Content.text}
           contact={Bill7Content.contact}
           section={Bill7Content.section}
+          bills={Bill7Content.bills}
           id="bill7"
         />
         <ContentBlock
@@ -155,6 +168,7 @@ const Bills = () => {
           content={Bill9Content.text}
           contact={Bill9Content.contact}
           section={Bill9Content.section}
+          bills={Bill9Content.bills}
           id="bill9"
         />
         <ContentBlock
@@ -163,6 +177,7 @@ const Bills = () => {
           content={Bill10Content.text}
           contact={Bill10Content.contact}
           section={Bill10Content.section}
+          bills={Bill10Content.bills}
           id="bill10"
         />
         <ContentBlock
@@ -179,6 +194,7 @@ const Bills = () => {
           content={Bill12Content.text}
           contact={Bill12Content.contact}
           section={Bill12Content.section}
+          bills={Bill12Content.bills}
           id="bill12"
         />
       </Container>

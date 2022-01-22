@@ -1,6 +1,18 @@
 {
   "section": "Teachers’ Fossil Fuel Divestment Act",
   "title": "Teachers’ Fossil Fuel Divestment Act",
-  "text": "Requires the New York State Teachers’ Retirement  System to divest from fossil fuel holdings (S4783, Brisport; A6331, Kelles).",
-  "contact": "Contact Ruth  Foster, Divest NY, rmfosterny@gmail.com"
+  "text": "Requires the New York State Teachers’ Retirement  System to divest from fossil fuel holdings.",
+  "contact": "Contact Ruth  Foster, Divest NY, rmfosterny@gmail.com",
+  "bills": {
+    "assembly": {
+      "url": "https://nyassembly.gov/leg/?bn=A06331&term=2021",
+      "number": "A6331",
+      "sponsor": "Kelles"
+    },
+    "senate": {
+      "url": "https://www.nysenate.gov/legislation/bills/2021/S4783",
+      "number": "S4783",
+      "sponsor": "Brisport"
+    }
+  }
 }

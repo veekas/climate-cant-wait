@@ -13,7 +13,7 @@ const BillInfo = ({ bills }: Props) => {
       </a>
       ;{" "}
       <a href={bills.senate.url}>
-        {bills.assembly.number}, {bills.assembly.sponsor}
+        {bills.senate.number}, {bills.senate.sponsor}
       </a>
       )
     </>

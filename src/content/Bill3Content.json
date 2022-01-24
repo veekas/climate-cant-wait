@@ -6,13 +6,13 @@
   "bills": {
     "assembly": {
       "url": "https://nyassembly.gov/leg/?bn=A06761&term=2021",
-      "number": "S5939",
-      "sponsor": "Ramos"
+      "number": "A6761",
+      "sponsor": "Mamdani"
     },
     "senate": {
       "url": "https://www.nysenate.gov/legislation/bills/2021/S5939",
-      "number": "A6761",
-      "sponsor": "Mamdani"
+      "number": "S5939",
+      "sponsor": "Ramos"
     }
   }
 }

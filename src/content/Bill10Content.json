@@ -1,6 +1,6 @@
 {
-  "section": "Proposed Actions on Environmental Justice Communities",
-  "title": "Proposed Actions on Environmental Justice Communities",
+  "section": "Cumulative Impacts Act",
+  "title": "Cumulative Impacts Act",
   "text": "Mandates that environmental impact statements  address effects on environmental justice communities, and that environmental impact  statements for power plants demonstrate alignment with the CLCPA.",
   "contact": "Contact Sonal Jessel, We ACT, sonal@weact.org",
   "bills": {
@@ -11,7 +11,7 @@
     },
     "senate": {
       "url": "https://www.nysenate.gov/legislation/bills/2021/s1031",
-      "number": "S1031",
+      "number": "S1031b",
       "sponsor": "Stewart-Cousins"
     }
   }

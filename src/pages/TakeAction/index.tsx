@@ -97,6 +97,11 @@ const Bills = () => {
               <ul>
                 <li>
                   12pm: ALBANY on the State Street side of the Capitol building.
+                  (Instagram live stream:{" "}
+                  <a href="https://instagram.com/sunrisemvmtnyc">
+                    @sunrisemvmtnyc
+                  </a>
+                  )
                 </li>
                 <br />
                 <li>
@@ -105,8 +110,21 @@ const Bills = () => {
                   Library
                 </li>
                 <br />
-                <li>3:30: MANHATTAN at 633 Third Avenue</li>
+                <li>
+                  3:30: MANHATTAN at 633 Third Avenue (Instagram live stream:{" "}
+                  <a href="https://instagram.com/sunrisemvmtnyc">
+                    @sunrisemvmtnyc
+                  </a>
+                  )
+                </li>
               </ul>
+              <div>
+                Bring signs with your organizational logo or make a sign with a
+                countdown clock. We’ll have banners and buttons. We’re asking
+                everyone who attends to be fully vaccinated and masked and to
+                respect social distancing. PREPARE TO BE LOUD!
+              </div>
+              <br />
               <div>
                 <a href="https://actionnetwork.org/events/climate-cant-wait-mobilization-january-2022">
                   Click here to learn more about the in-person actions.
@@ -124,27 +142,3 @@ const Bills = () => {
 };
 
 export default Bills;
-
-//
-
-// EVERYONE EVERYWHERE CAN DO OUR REMOTE ACTIONS!
-
-//
-
-//                               The phone numbers and the script is here.
-
-//
-
-//                               Join a Phone Party at noon or at 6 pm to call together! Here’s the zoom link
-
-//               Want to do more? Look at our easy remote action guide for ideas!
-
-// AND WE’VE GOT THREE GREAT IN-PERSON ACTIONS!
-
-//               At NOON in ALBANY on the State Street side of the Capitol building.
-
-//               At
-
-//               At 3:30 in Manhattan at 633 Third Avenue
-
-// Bring signs with your organizational logo or make a sign with a countdown clock. We’ll have banners and buttons. We’re asking everyone who attends to be fully vaccinated and masked and to respect social distancing. PREPARE TO BE LOUD!

@@ -136,6 +136,13 @@ const Bills = () => {
           section="local-action"
           id="local-action"
         />
+        <div style={{ textAlign: "center", marginBottom: "5rem" }}>
+          <img
+            src="jan-25-graphic.png"
+            alt="january 25th social media graphic"
+            style={{ maxWidth: "100%" }}
+          />
+        </div>
       </Container>
     </>
   );

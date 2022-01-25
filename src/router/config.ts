@@ -9,6 +9,11 @@ const routes = [
     exact: true,
     component: "Bills",
   },
+  {
+    path: ["/take-action"],
+    exact: true,
+    component: "TakeAction",
+  },
 ];
 
 export default routes;

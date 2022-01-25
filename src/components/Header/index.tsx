@@ -3,7 +3,7 @@ import { Row, Col, Drawer } from "antd";
 import { withTranslation } from "react-i18next";
 import { HeaderContainer } from "../../common/Container";
 import { SvgIcon } from "../../common/SvgIcon";
-// import { Button } from "../../common/Button";
+import { Button } from "../../common/Button";
 import {
   HeaderSection,
   LogoContainer,
@@ -13,7 +13,7 @@ import {
   CustomNavLinkSmall,
   Label,
   Outline,
-  // Span,
+  Span,
   SpanLink,
 } from "./styles";
 
@@ -44,14 +44,11 @@ const Header = ({ t }: any) => {
         <CustomNavLinkSmall>
           <SpanLink to="/bills">{t("Bills")}</SpanLink>
         </CustomNavLinkSmall>
-        {/* <CustomNavLinkSmall
-          style={{ width: "180px" }}
-          onClick={() => scrollTo("contact")}
-        >
+        <CustomNavLinkSmall style={{ width: "180px" }}>
           <Span>
-            <Button>{t("Contact")}</Button>
+            <Button href="/take-action">{t("LAUNCH DAY")}</Button>
           </Span>
-        </CustomNavLinkSmall> */}
+        </CustomNavLinkSmall>
       </>
     );
   };

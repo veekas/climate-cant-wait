@@ -50,6 +50,7 @@ const Bills = () => {
         backgroundColor="#FFFF80"
       >
         <MiddleBlock
+          style={{ padding: "4rem 0 4rem" }}
           title={<>Our 2022 Bills and Proposals</>}
           content={
             <p>

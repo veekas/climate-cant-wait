@@ -14,6 +14,11 @@ const routes = [
     exact: true,
     component: "TakeAction",
   },
+  {
+    path: ["/"],
+    exact: false,
+    component: "Home",
+  },
 ];
 
 export default routes;

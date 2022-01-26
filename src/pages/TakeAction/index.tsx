@@ -22,10 +22,10 @@ const Bills = () => {
           content={
             // <p>Below are some ways to take action with Climate Can't Wait.</p>
             <p>
-              Tuesday, January 25, is Climate Can’t Wait 2022’s big kickoff!
-              Tell Governor Hochul, Senate Majority Leader Stewart-Cousins, and
-              Assembly Speaker Heastie that 2022 is the year when we want REAL
-              ACTION ON CLIMATE!
+              Tuesday, January 25, was Climate Can’t Wait 2022’s big kickoff! We
+              generated almost 1500 calls to their offices and held major
+              actions in Albany, Manhattan, and Yonkers! We're only just getting
+              started. This page has up-to-date ways to keep up the pressure.
             </p>
           }
           id="take-action"
@@ -42,9 +42,8 @@ const Bills = () => {
                   <b>Phone Calls</b>
                 </div>
                 <br />
-                Anytime all day call Governor Hochul, Senate Majority Leader
-                Stewart-Cousins and Assembly Speaker Heastie, and tell them
-                "Climate Can’t Wait"!{" "}
+                Call Governor Hochul, Senate Majority Leader Stewart-Cousins and
+                Assembly Speaker Heastie, and tell them "Climate Can’t Wait"!{" "}
                 <a href="https://docs.google.com/document/d/1hdBq2eJ_njLJKqlDMGRmhcbZaglD-RqjimIIdnRf-rU/edit?usp=sharing">
                   Here are the phone numbers to call and a sample call script to
                   use.
@@ -53,26 +52,14 @@ const Bills = () => {
               <br />
               <div>
                 <div>
-                  <b>Zoom Parties</b>
-                </div>
-                <br />
-                Want to make calls in company with your fellow New Yorkers? Join
-                a Phone Party at noon or at 6 pm to call together!{" "}
-                <a href="https://fwwatch.zoom.us/j/93589005470?source=website-climate-cant-wait-take-action">
-                  Here is the Zoom link.
-                </a>
-              </div>
-              <br />
-              <div>
-                <div>
                   <b>Extra Credit</b>
                 </div>
                 <br />
-                Want to do more? Look at our{" "}
+                Want to post on social media or send emails? Look at our{" "}
                 <a href="https://docs.google.com/document/d/1hdBq2eJ_njLJKqlDMGRmhcbZaglD-RqjimIIdnRf-rU/edit?usp=sharing">
                   easy remote action guide
                 </a>{" "}
-                for ideas!
+                for opportunities to help in other ways!
               </div>
             </>
           }
@@ -85,64 +72,22 @@ const Bills = () => {
           content={
             <>
               <div>
-                Anytime all day call Governor Hochul, Senate Majority Leader
-                Stewart-Cousins and Assembly Speaker Heastie, and tell them
-                "Climate Can’t Wait"!{" "}
-                <a href="https://docs.google.com/document/d/1hdBq2eJ_njLJKqlDMGRmhcbZaglD-RqjimIIdnRf-rU/edit?usp=sharing">
-                  Here are the phone numbers to call and a sample call script to
-                  use.
-                </a>
+                We had an incredible day of action on January 25th. CCW is now
+                planning our next in-person day of action. Stay tuned for more
+                information.
               </div>
-              <br />
-              <ul>
-                <li>
-                  12pm: ALBANY on the State Street side of the Capitol building.
-                  (Instagram live stream:{" "}
-                  <a href="https://instagram.com/sunrisemvmtnyc">
-                    @sunrisemvmtnyc
-                  </a>
-                  )
-                </li>
-                <br />
-                <li>
-                  3:30: YONKERS in Van Der Donck Park, directly across from the
-                  Yonkers Metro-North Station and next to the Yonkers Riverfront
-                  Library
-                </li>
-                <br />
-                <li>
-                  3:30: MANHATTAN at 633 Third Avenue (Instagram live stream:{" "}
-                  <a href="https://instagram.com/sunrisemvmtnyc">
-                    @sunrisemvmtnyc
-                  </a>
-                  )
-                </li>
-              </ul>
-              <div>
-                Bring signs with your organizational logo or make a sign with a
-                countdown clock. We’ll have banners and buttons. We’re asking
-                everyone who attends to be fully vaccinated and masked and to
-                respect social distancing. PREPARE TO BE LOUD!
-              </div>
-              <br />
-              <div>
-                <a href="https://actionnetwork.org/events/climate-cant-wait-mobilization-january-2022">
-                  Click here to learn more about the in-person actions.
-                </a>
+              <div style={{ textAlign: "center", margin: "2rem 0 5rem" }}>
+                <img
+                  src="jan-25-graphic.png"
+                  alt="january 25th social media graphic"
+                  style={{ maxWidth: "50%" }}
+                />
               </div>
             </>
           }
-          button="More Info"
           section="local-action"
           id="local-action"
         />
-        <div style={{ textAlign: "center", marginBottom: "5rem" }}>
-          <img
-            src="jan-25-graphic.png"
-            alt="january 25th social media graphic"
-            style={{ maxWidth: "100%" }}
-          />
-        </div>
       </Container>
     </>
   );

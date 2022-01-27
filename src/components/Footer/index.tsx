@@ -106,11 +106,12 @@ const Footer = ({ t }: any) => {
                 State Council of Churches, New York Youth Climate Leaders,
                 NYCD16 Indivisible, NYC-DSA Ecosocialist Working Group, PAUSE,
                 People’s Climate Movement-NY, Professional Staff Congress CUNY,
-                Province of St. Mary of the Capuchin Order, Queens Climate
-                Project, Queens County Young Democrats, Rockland United,
-                Sheridan Hollow Alliance for Renewable Energy (SHARE), Sunrise
-                Movement NYC, Tompkins County Climate Protection Initiative,
-                TREEage, WE ACT for Environmental Justice, and WESPAC Foundation
+                Progressive Schenectady, Province of St. Mary of the Capuchin
+                Order, Queens Climate Project, Queens County Young Democrats,
+                Rockland United, Sheridan Hollow Alliance for Renewable Energy
+                (SHARE), Sunrise Movement NYC, Tompkins County Climate
+                Protection Initiative, TREEage, WE ACT for Environmental
+                Justice, and WESPAC Foundation
               </OrgNames>
               <Attribution>
                 Website built by{" "}

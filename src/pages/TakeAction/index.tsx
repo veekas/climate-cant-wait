@@ -28,7 +28,7 @@ const Bills = () => {
               started. This page has up-to-date ways to keep up the pressure.
             </p>
           }
-          id="take-action"
+          id="intro"
         />
       </FullBleedContainer>
       <Container>

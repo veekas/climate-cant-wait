@@ -59,7 +59,7 @@ const Bills = () => {
             </p>
           }
           button={AboutContent.button}
-          id="bills"
+          id="intro"
         />
       </FullBleedContainer>
       <Container>

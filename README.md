@@ -7,3 +7,6 @@
 - href => react router
 - look into creating short urls for ccw using the website?
 - reintroduce translations
+  - lingohub
+  - weglot
+  - react-i18n

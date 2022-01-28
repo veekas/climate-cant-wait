@@ -1400,7 +1400,7 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@honeybadger-io/js@^3.2.4", "@honeybadger-io/js@^3.2.7":
+"@honeybadger-io/js@^3.2.4":
   version "3.2.7"
   resolved "https://registry.yarnpkg.com/@honeybadger-io/js/-/js-3.2.7.tgz#65a06bb603d1dc3fd97503fdb9c9664f2713c690"
   integrity sha512-lsdcuwKbJkIt4wY6Sg7AhmvPsHK7Wr4CJ73HXnHgakxdEuMt8RXilZfWyZ5i/wqcwnSr7OQ83R94aYiQdLTxFQ==

@@ -1,8 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 import ReactDOM from "react-dom";
 import { I18nextProvider } from "react-i18next";
-import Honeybadger from "@honeybadger-io/js";
-import ErrorBoundary from "@honeybadger-io/react";
+import { Honeybadger, HoneybadgerErrorBoundary } from "@honeybadger-io/react";
 import "antd/dist/antd.css";
 
 import Router from "./router";
@@ -14,13 +13,13 @@ Honeybadger.configure({
 });
 
 const App = () => (
-  <ErrorBoundary honeybadger={Honeybadger}>
+  <HoneybadgerErrorBoundary honeybadger={Honeybadger}>
     <BrowserRouter>
       <I18nextProvider i18n={i18n}>
         <Router />
       </I18nextProvider>
     </BrowserRouter>
-  </ErrorBoundary>
+  </HoneybadgerErrorBoundary>
 );
 
 ReactDOM.render(<App />, document.getElementById("root"));

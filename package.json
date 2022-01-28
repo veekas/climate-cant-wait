@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@honeybadger-io/js": "^3.2.7",
     "@honeybadger-io/react": "^2.0.0",
     "@types/node": "^15.6.0",
     "@types/react": "^17.0.6",

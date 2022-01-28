@@ -37,19 +37,6 @@ const Home = () => {
           scrollTarget="about"
         />
       </FullBleedContainer>
-      <FullBleedContainer backgroundColor="#fff">
-        <VideoContainer>
-          <iframe
-            width="800"
-            height="450"
-            src="https://www.youtube.com/embed/ek4XFjGYESo"
-            title="video player for 'Climate Can't Wait 2022 Introduction'"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        </VideoContainer>
-      </FullBleedContainer>
       <Container>
         <MiddleBlock
           title={
@@ -81,6 +68,21 @@ const Home = () => {
           button={AboutContent.button}
           id="about"
         />
+      </Container>
+      <FullBleedContainer backgroundColor="#fff">
+        <VideoContainer>
+          <iframe
+            width="800"
+            height="450"
+            src="https://www.youtube.com/embed/ek4XFjGYESo"
+            title="video player for 'Climate Can't Wait 2022 Introduction'"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </VideoContainer>
+      </FullBleedContainer>
+      <Container>
         <ContentBlock
           type="left"
           title={BillsInfo.title}

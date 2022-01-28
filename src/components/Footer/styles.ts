@@ -155,9 +155,18 @@ export const OrgNames = styled("p")`
 
 export const Attribution = styled("p")`
   color: rgb(241, 242, 243);
+  cursor: default;
   font-size: 0.75rem;
+  margin-left: auto;
 
   a {
     color: rgb(241, 242, 243);
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: rgb(241, 242, 243);
+      cursor: default;
+    }
   }
 `

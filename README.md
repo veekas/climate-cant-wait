@@ -1,7 +1,6 @@
 # todo
 
 - group links in footer
-- take action page
 - press
 - listserv?
 - href => react router
@@ -12,3 +11,8 @@
   - lingohub
   - weglot (test in progress; is it working and performant-enough? if not, remove)
   - react-i18n
+- contact us form -> email
+  - https://www.smashingmagazine.com/2018/05/building-serverless-contact-form-static-website/
+  - https://rebecca-goh.medium.com/complete-guide-to-create-a-contact-us-form-for-s3-static-website-using-aws-lambda-amazon-ses-and-e1f143843147
+  - https://www.freecodecamp.org/news/how-to-receive-emails-via-your-sites-contact-us-form-with-aws-ses-lambda-api-gateway/
+  - 

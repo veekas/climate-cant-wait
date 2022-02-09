@@ -102,15 +102,15 @@ const Footer = ({ t }: any) => {
                 Environment, Indivisible Harlem, Indivisible Nation BK,
                 Indivisible Scarsdale, Mid Hudson Valley DSA, New York
                 Communities for Change, New York Lawyers for the Public
-                Interest, NY Renews, NYC Franciscan Justice Circle, New York
-                State Council of Churches, New York Youth Climate Leaders,
+                Interest, NYPIRG, NY Renews, NYC Franciscan Justice Circle, New
+                York State Council of Churches, New York Youth Climate Leaders,
                 NYCD16 Indivisible, NYC-DSA Ecosocialist Working Group, PAUSE,
                 People's Climate Movement-NY, Professional Staff Congress CUNY,
                 Progressive Schenectady, Province of St. Mary of the Capuchin
                 Order, Queens Climate Project, Queens County Young Democrats,
-                Rockland United, Sheridan Hollow Alliance for Renewable Energy
-                (SHARE), Sunrise Movement NYC, Tompkins County Climate
-                Protection Initiative, TREEage, WE ACT for Environmental
+                Rise and Resist, Rockland United, Sheridan Hollow Alliance for
+                Renewable Energy (SHARE), Sunrise Movement NYC, Tompkins County
+                Climate Protection Initiative, TREEage, WE ACT for Environmental
                 Justice, and WESPAC Foundation
               </OrgNames>
               <Attribution>

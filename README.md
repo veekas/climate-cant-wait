@@ -1,6 +1,6 @@
 # todo
 
-- group links in footer
+- group links in footer, **logos**
 - press
 - listserv?
 - href => react router
@@ -15,4 +15,6 @@
   - https://www.smashingmagazine.com/2018/05/building-serverless-contact-form-static-website/
   - https://rebecca-goh.medium.com/complete-guide-to-create-a-contact-us-form-for-s3-static-website-using-aws-lambda-amazon-ses-and-e1f143843147
   - https://www.freecodecamp.org/news/how-to-receive-emails-via-your-sites-contact-us-form-with-aws-ses-lambda-api-gateway/
-  - 
+- calendar
+- bill progress tracker
+- bill sponsor tracker

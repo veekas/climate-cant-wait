@@ -20,13 +20,23 @@ const Bills = () => {
           style={{ padding: "5rem 0 4rem" }}
           title={<>Take Action Today!</>}
           content={
-            // <p>Below are some ways to take action with Climate Can't Wait.</p>
-            <p>
-              Tuesday, January 25, was Climate Can’t Wait 2022’s big kickoff! We
-              generated almost 1500 calls to their offices and held major
-              actions in Albany, Manhattan, and Yonkers! We're only just getting
-              started. This page has up-to-date ways to keep up the pressure.
-            </p>
+            <>
+              {/* <p>Below are some ways to take action with Climate Can't Wait.</p> */}
+              <p>
+                Tuesday, January 25, was Climate Can’t Wait 2022’s big kickoff!
+                We generated almost 1500 calls to their offices and held major
+                actions in Albany, Manhattan, and Yonkers! We're only just
+                getting started. This page has up-to-date ways to keep up the
+                pressure.
+              </p>
+              <p>
+                <b>
+                  <a href="https://actionnetwork.org/forms/stay-up-to-date-with-climate-cant-wait-3">
+                    Sign up here to receive email updates
+                  </a>
+                </b>
+              </p>
+            </>
           }
           id="intro"
         />

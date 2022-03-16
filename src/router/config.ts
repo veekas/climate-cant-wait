@@ -15,6 +15,11 @@ const routes = [
     component: "TakeAction",
   },
   {
+    path: ["/email"],
+    exact: true,
+    component: "EmailUpdates",
+  },
+  {
     path: ["/"],
     exact: false,
     component: "Home",

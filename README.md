@@ -1,5 +1,9 @@
 # todo
 
+- update main buttons to the general sign up link
+- fix that picture
+- sentence about adding info about january 25th
+- email natalie to ask about helping with copy, photos, etc.
 - links to the everyaction email list sign up
 - href => react router
 - group links in footer, **logos**

@@ -20,6 +20,11 @@ const routes = [
     component: "EmailUpdates",
   },
   {
+    path: ["/calendar"],
+    exact: true,
+    component: "Calendar",
+  },
+  {
     path: ["/"],
     exact: false,
     component: "Home",

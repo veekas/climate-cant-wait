@@ -23,16 +23,27 @@ const Bills = () => {
             <>
               {/* <p>Below are some ways to take action with Climate Can't Wait.</p> */}
               <p>
-                Tuesday, January 25, was Climate Can’t Wait 2022’s big kickoff!
-                We generated almost 1500 calls to their offices and held major
-                actions in Albany, Manhattan, and Yonkers! We're only just
-                getting started. This page has up-to-date ways to keep up the
-                pressure.
+                Rally with Climate Can’t Wait During Earth Week and on Earth
+                Day!
+              </p>
+              <p>
+                A group of intrepid climate activists will bike the Empire State
+                Trail starting from New York City on Saturday, April 16th.
+                They’ll be cheered on by rallies along the route culminating in
+                a giant rally in Albany on Earth Day itself, April 22nd. Join
+                us! Show Governor Hochul and the Legislature our power! We
+                demand that they pass our package of bills this session because
+                Climate Can’t Wait!
               </p>
               <p>
                 <b>
-                  <a href="https://actionnetwork.org/forms/stay-up-to-date-with-climate-cant-wait-3">
-                    Sign up here to receive email updates
+                  <a
+                    href="https://actionnetwork.org/events/climate-cant-wait-earth-day-mobilization"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Sign up here to be kept informed about all the Climate Can’t
+                    Wait rallies!
                   </a>
                 </b>
               </p>
@@ -44,7 +55,7 @@ const Bills = () => {
       <Container>
         <ContentBlock
           type="left"
-          title="Remote Actions"
+          title="Meanwhile, here's some actions you can take right now!"
           content={
             <>
               <div>
@@ -54,7 +65,11 @@ const Bills = () => {
                 <br />
                 Call Governor Hochul, Senate Majority Leader Stewart-Cousins and
                 Assembly Speaker Heastie, and tell them "Climate Can’t Wait"!{" "}
-                <a href="https://docs.google.com/document/d/1hdBq2eJ_njLJKqlDMGRmhcbZaglD-RqjimIIdnRf-rU/edit?usp=sharing">
+                <a
+                  href="https://docs.google.com/document/d/1hdBq2eJ_njLJKqlDMGRmhcbZaglD-RqjimIIdnRf-rU/edit?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Here are the phone numbers to call and a sample call script to
                   use.
                 </a>
@@ -66,7 +81,11 @@ const Bills = () => {
                 </div>
                 <br />
                 Want to post on social media or send emails? Look at our{" "}
-                <a href="https://docs.google.com/document/d/1hdBq2eJ_njLJKqlDMGRmhcbZaglD-RqjimIIdnRf-rU/edit?usp=sharing">
+                <a
+                  href="https://docs.google.com/document/d/1hdBq2eJ_njLJKqlDMGRmhcbZaglD-RqjimIIdnRf-rU/edit?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   easy remote action guide
                 </a>{" "}
                 for opportunities to help in other ways!
@@ -75,28 +94,6 @@ const Bills = () => {
           }
           section="remote-actions"
           id="remote-actions"
-        />
-        <ContentBlock
-          type="right"
-          title="Local Actions"
-          content={
-            <>
-              <div>
-                We had an incredible day of action on January 25th. CCW is now
-                planning our next in-person day of action. Stay tuned for more
-                information.
-              </div>
-              <div style={{ textAlign: "center", margin: "2rem 0 5rem" }}>
-                <img
-                  src="jan-25-graphic.png"
-                  alt="january 25th social media graphic"
-                  style={{ maxWidth: "50%" }}
-                />
-              </div>
-            </>
-          }
-          section="local-action"
-          id="local-action"
         />
       </Container>
     </>

@@ -25,6 +25,11 @@ const routes = [
     component: "Calendar",
   },
   {
+    path: ["/earth-day"],
+    exact: true,
+    component: "EarthDay",
+  },
+  {
     path: ["/"],
     exact: false,
     component: "Home",

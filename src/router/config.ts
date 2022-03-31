@@ -30,6 +30,11 @@ const routes = [
     component: "EarthDay",
   },
   {
+    path: ["/toolkit"],
+    exact: true,
+    component: "EarthDay",
+  },
+  {
     path: ["/"],
     exact: false,
     component: "Home",

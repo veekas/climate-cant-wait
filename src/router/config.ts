@@ -35,6 +35,11 @@ const routes = [
     component: "Toolkit",
   },
   {
+    path: ["/bike-trek"],
+    exact: true,
+    component: "BikeTrek",
+  },
+  {
     path: ["/"],
     exact: false,
     component: "Home",

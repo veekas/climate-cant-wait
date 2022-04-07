@@ -18,7 +18,7 @@ const BikeTrek = () => {
       <ScrollToTop />
       <FullBleedContainer
         backgroundImage="/Craig-Fildes-capitol.jpeg"
-        backgroundColor="#FFFF80"
+        backgroundColor="#FEE879"
       >
         <MiddleBlock
           style={{ padding: "4rem 0 4rem" }}

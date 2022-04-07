@@ -1,6 +1,7 @@
 import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { SvgIcon } from "../../../common/SvgIcon";
+import { Img } from "../../../common/Img";
 import { Button } from "../../../common/Button";
 import { ContentBlockProps } from "../types";
 import BillInfo from "../BillInfo";
@@ -18,6 +19,7 @@ const RightBlock = ({
   bills,
   button,
   icon,
+  image,
   t,
   scrollTarget = "about",
   onClick,
@@ -29,7 +31,7 @@ const RightBlock = ({
       behavior: "smooth",
     });
   };
-  const textWidth = icon ? 11 : 24;
+  const textWidth = icon || image ? 11 : 24;
 
   return (
     <RightBlockContainer>
@@ -66,6 +68,11 @@ const RightBlock = ({
         {icon && (
           <Col lg={11} md={11} sm={11} xs={24}>
             <SvgIcon src={icon} width="100%" height="100%" />
+          </Col>
+        )}
+        {image && (
+          <Col lg={11} md={11} sm={11} xs={24}>
+            <Img src={image} width="100%" height="100%" />
           </Col>
         )}
       </Row>

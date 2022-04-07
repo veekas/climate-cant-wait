@@ -21,6 +21,7 @@ import {
   // LanguageSwitchContainer,
   OrgNames,
   Attribution,
+  FooterHeading,
 } from "./styles";
 
 // interface SocialLinkProps {
@@ -93,22 +94,25 @@ const Footer = ({ t }: any) => {
               </LogoContainer>
             </NavLink>
             <Row justify="space-between" align="middle">
+              <FooterHeading>
+                Climate Can't Wait is a collaboration between organizations from
+                across New York State
+              </FooterHeading>
               <OrgNames>
-                Climate Can't Wait is a collaboration between 350NJ-Rockland,
-                350NYC, 350Brooklyn, Citizen Action of New York, Divest NY,
-                Empire State Indivisible, Energy Democracy Alliance, Food &
-                Water Watch, For the Many, Forest Hills Green Team, Fossil Fuel
-                Subsidies Coalition, El Puente, Hudson Center for Community and
-                Environment, Indivisible Harlem, Indivisible Nation BK,
-                Indivisible Scarsdale, Indivisible-UES, Kids Fight Climate
-                Change, Mid Hudson Valley DSA, New York Communities for Change,
-                New York Lawyers for the Public Interest, NYPIRG, NY Renews, NYC
-                Franciscan Justice Circle, New York State Council of Churches,
-                New York Youth Climate Leaders, NYCD16 Indivisible, NYC-DSA
-                Ecosocialist Working Group, PAUSE, People's Climate Movement-NY,
-                Professional Staff Congress CUNY, Progressive Schenectady,
-                Province of St. Mary of the Capuchin Order, Queens Climate
-                Project, Queens County Young Democrats, Rise and Resist,
+                350NJ-Rockland, 350NYC, 350Brooklyn, Citizen Action of New York,
+                Divest NY, Empire State Indivisible, Energy Democracy Alliance,
+                Food & Water Watch, For the Many, Forest Hills Green Team,
+                Fossil Fuel Subsidies Coalition, El Puente, Hudson Center for
+                Community and Environment, Indivisible Harlem, Indivisible
+                Nation BK, Indivisible Scarsdale, Indivisible-UES, Kids Fight
+                Climate Change, Mid Hudson Valley DSA, New York Communities for
+                Change, New York Lawyers for the Public Interest, NYPIRG, NY
+                Renews, NYC Franciscan Justice Circle, New York State Council of
+                Churches, New York Youth Climate Leaders, NYCD16 Indivisible,
+                NYC-DSA Ecosocialist Working Group, PAUSE, People's Climate
+                Movement-NY, Professional Staff Congress CUNY, Progressive
+                Schenectady, Province of St. Mary of the Capuchin Order, Queens
+                Climate Project, Queens County Young Democrats, Rise and Resist,
                 Rockland United, Sheridan Hollow Alliance for Renewable Energy
                 (SHARE), Sunrise Movement NYC, Tompkins County Climate
                 Protection Initiative, TREEage, WE ACT for Environmental

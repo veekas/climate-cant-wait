@@ -54,7 +54,7 @@ export const ButtonWrapper = styled("div")`
     max-width: 80%;
   }
 
-  button:last-child {
-    margin-left: 20px;
-  }
+  // button:last-child {
+  //   margin-left: 20px;
+  // }
 `;

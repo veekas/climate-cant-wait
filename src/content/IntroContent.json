@@ -1,11 +1,11 @@
 {
   "section": "hero",
-  "title": "It's time for New York to lead",
-  "text": "Thousands of New Yorkers from across the state have united to demand climate justice from our leaders.",
+  "title": "Climate Can't Wait and we won't either",
+  "text": "We're riding to Albany to demand climate action, and we're hosting rallies every day until we get there. Will you join us?",
   "button": [
     {
-      "title": "Join Us",
-      "href": "/take-action"
+      "title": "Join Us in Albany",
+      "href": "/earth-day"
     },
     {
       "title": "Learn More",

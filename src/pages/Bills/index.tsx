@@ -47,7 +47,7 @@ const Bills = () => {
       <ScrollToTop />
       <FullBleedContainer
         backgroundImage="/Craig-Fildes-capitol.jpeg"
-        backgroundColor="#FFFF80"
+        backgroundColor="#FEE879"
       >
         <MiddleBlock
           style={{ padding: "4rem 0 4rem" }}
@@ -139,6 +139,15 @@ const Bills = () => {
         />
         <ContentBlock
           type="right"
+          title={Bill10Content.title}
+          content={Bill10Content.text}
+          contact={Bill10Content.contact}
+          section={Bill10Content.section}
+          bills={Bill10Content.bills}
+          id="bill10"
+        />
+        <ContentBlock
+          type="right"
           title={Bill6Content.title}
           content={Bill6Content.text}
           contact={Bill6Content.contact}
@@ -171,15 +180,6 @@ const Bills = () => {
           section={Bill9Content.section}
           bills={Bill9Content.bills}
           id="bill9"
-        />
-        <ContentBlock
-          type="right"
-          title={Bill10Content.title}
-          content={Bill10Content.text}
-          contact={Bill10Content.contact}
-          section={Bill10Content.section}
-          bills={Bill10Content.bills}
-          id="bill10"
         />
         <ContentBlock
           type="left"

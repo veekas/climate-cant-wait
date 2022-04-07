@@ -1,20 +1,6 @@
 # todo
 
-- implement notes from ruth:
-First Page:
-- Highlight the Rally and Trek (either list all the trek events there or link to a separate page on the bike trek.) Add the rally graphic
-- Switch from join us button to Come to Albany on Ap 22 button
-- add the bill Mckibben video -- move the Jan video to the About page
-About page -- 
-- add the Jan video 
-- and list member orgs bigger.
-Take action page
-- change Sign up --to Join us in Albany - Registration link
-
-- update main buttons to the general sign up link
 - fix that picture
-- sentence about adding info about january 25th
-- email natalie to ask about helping with copy, photos, etc.
 - links to the everyaction email list sign up
 - href => react router
 - group links in footer, **logos**

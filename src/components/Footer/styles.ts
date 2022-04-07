@@ -17,7 +17,6 @@ export const Title = styled("h4")`
 `;
 
 export const NavLink = styled(Link)`
-
   &:hover,
   &:active,
   &:focus {
@@ -53,9 +52,9 @@ export const Large = styled(Link)<any>`
   max-width: max-content;
 
   &:hover {
-    color: #FF4040;
+    color: #ff4040;
     text-underline-position: under;
-    text-decoration: #FF4040 wavy underline;
+    text-decoration: #ff4040 wavy underline;
   }
 `;
 
@@ -67,8 +66,8 @@ export const Chat = styled("p")`
   margin-top: 1rem;
 
   &:hover {
-    border-bottom: 1px solid #FF4040;
-    color: #FF4040;
+    border-bottom: 1px solid #ff4040;
+    color: #ff4040;
   }
 `;
 
@@ -102,7 +101,7 @@ export const FooterContainer = styled("div")`
     height: 25px;
 
     &:hover {
-      fill: #FF4040;
+      fill: #ff4040;
     }
   }
 `;
@@ -150,7 +149,12 @@ export const LanguageSwitchContainer = styled("div")`
 `;
 
 export const OrgNames = styled("p")`
-  font-size: 0.75rem;
+  font-size: 21px;
+`;
+
+export const FooterHeading = styled("h3")`
+  font-size: 2rem;
+  font-weight: 500;
 `;
 
 export const Attribution = styled("p")`
@@ -169,4 +173,4 @@ export const Attribution = styled("p")`
       cursor: default;
     }
   }
-`
+`;

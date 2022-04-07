@@ -1,5 +1,6 @@
 export interface ContentBlockProps {
   icon?: string;
+  image?: string;
   title: string;
   bills?: any;
   content: any;

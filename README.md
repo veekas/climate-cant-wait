@@ -1,6 +1,5 @@
 # todo
 
-- create bike trek page
 - implement notes from ruth:
 First Page:
 - Highlight the Rally and Trek (either list all the trek events there or link to a separate page on the bike trek.) Add the rally graphic

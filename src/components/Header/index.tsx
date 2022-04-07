@@ -44,6 +44,9 @@ const Header = ({ t }: any) => {
         <CustomNavLinkSmall>
           <SpanLink to="/bills">{t("Bills")}</SpanLink>
         </CustomNavLinkSmall>
+        <CustomNavLinkSmall>
+          <SpanLink to="/bike-trek">{t("Bike Trek")}</SpanLink>
+        </CustomNavLinkSmall>
         <CustomNavLinkSmall style={{ width: "180px" }}>
           <Span>
             <Button href="/take-action">{t("Take Action")}</Button>

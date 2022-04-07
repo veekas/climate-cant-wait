@@ -1,5 +1,6 @@
 import { lazy } from "react";
 
+import TakeActionContent from "../../content/TakeActionContent.json";
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
@@ -35,7 +36,7 @@ const Bills = () => {
                 demand that they pass our package of bills this session because
                 Climate Can’t Wait!
               </p>
-              <p>
+              {/* <p>
                 <b>
                   <a
                     href="https://actionnetwork.org/events/climate-cant-wait-earth-day-mobilization"
@@ -46,9 +47,10 @@ const Bills = () => {
                     Wait rallies!
                   </a>
                 </b>
-              </p>
+              </p> */}
             </>
           }
+          button={TakeActionContent.button}
           id="intro"
         />
       </FullBleedContainer>

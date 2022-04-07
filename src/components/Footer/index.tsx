@@ -119,23 +119,6 @@ const Footer = ({ t }: any) => {
                 <a href="https://veekasmeansprogress.com">Veekas Ashoka</a>
               </Attribution>
             </Row>
-            {/*
-              <SocialLink
-                href="https://twitter.com/climatecantwait2022" // TODO: get these handles
-                src="twitter.svg"
-                hidden
-              />
-              <SocialLink
-                href="https://medium.com/@climatecantwait/" // TODO: get these handles
-                src="medium.svg"
-                // hidden
-              />
-              <SocialLink
-                href="https://medium.com/@climatecantwait/" // TODO: get these handles
-                src="medium.svg"
-                // hidden
-              />
-            */}
           </Row>
         </Container>
       </Extra>

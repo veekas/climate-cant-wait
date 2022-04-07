@@ -11,8 +11,6 @@ About page --
 - and list member orgs bigger.
 Take action page
 - change Sign up --to Join us in Albany - Registration link
-On the bills page 
-- Add Renewable Capitol Bill numbers -- (A9341, McDonald; S8221 Breslin)
 
 - update main buttons to the general sign up link
 - fix that picture

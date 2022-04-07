@@ -200,7 +200,7 @@ const BikeTrek = () => {
                       <h2>4/22: Albany</h2>
                       <p>
                         🚲 3.5 miles (start at{" "}
-                        <a href="https://goo.gl/maps/ZxeYzys7iKVo5ioK6">
+                        <a href="https://goo.gl/maps/t9XqAg73y7MT3mTL7">
                           East Greenbush
                         </a>{" "}
                         at 10:30am)

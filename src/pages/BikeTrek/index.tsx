@@ -218,10 +218,7 @@ const BikeTrek = () => {
                           West Capitol Park, Albany
                         </a>
                       </p>
-                      <Img
-                        src="07_CCW_MarchRally_Albany_422.jpg"
-                        alt="Graphic for 4/22 Rally"
-                      />
+                      <Img src="4-22_albany.jpg" alt="Graphic for 4/22 Rally" />
                     </div>
                   </li>
                 </ul>

@@ -2,5 +2,17 @@
   "section": "Renewable Capitol Act",
   "title": "Renewable Capitol Act",
   "text": "Mandates that several state facilities in downtown Albany,  including the State Capitol and Empire State Plaza, be powered by renewable energy,  addressing state climate goals and pollution in the nearby environmental justice community.",
-  "contact": "Contact Merton Simpson, SHARE, robcor295@cs.com"
+  "contact": "Contact Merton Simpson, SHARE, robcor295@cs.com",
+  "bills": {
+    "assembly": {
+      "url": "https://nyassembly.gov/leg/?bn=A09341&term=2021",
+      "number": "A9341",
+      "sponsor": "McDonald"
+    },
+    "senate": {
+      "url": "https://www.nysenate.gov/legislation/bills/2021/S8221",
+      "number": "S8221",
+      "sponsor": "Breslin"
+    }
+  }
 }

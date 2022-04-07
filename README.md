@@ -1,5 +1,19 @@
 # todo
 
+- create bike trek page
+- implement notes from ruth:
+First Page:
+- Highlight the Rally and Trek (either list all the trek events there or link to a separate page on the bike trek.) Add the rally graphic
+- Switch from join us button to Come to Albany on Ap 22 button
+- add the bill Mckibben video -- move the Jan video to the About page
+About page -- 
+- add the Jan video 
+- and list member orgs bigger.
+Take action page
+- change Sign up --to Join us in Albany - Registration link
+On the bills page 
+- Add Renewable Capitol Bill numbers -- (A9341, McDonald; S8221 Breslin)
+
 - update main buttons to the general sign up link
 - fix that picture
 - sentence about adding info about january 25th

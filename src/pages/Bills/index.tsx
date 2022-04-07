@@ -187,6 +187,7 @@ const Bills = () => {
           content={Bill11Content.text}
           contact={Bill11Content.contact}
           section={Bill11Content.section}
+          bills={Bill11Content.bills}
           id="bill11"
         />
         <ContentBlock

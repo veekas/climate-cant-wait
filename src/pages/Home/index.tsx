@@ -5,6 +5,7 @@ import AboutContent from "../../content/AboutContent.json";
 import BillsInfo from "../../content/BillsInfo.json";
 import BikeTrekContent from "../../content/BikeTrekContent.json";
 import rally22 from "../../assets/4-22_albany.jpg";
+import bikeTrek from "../../assets/EarthWeek-BikeTrek.jpg";
 
 // const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -98,7 +99,7 @@ const Home = () => {
             </>
           }
           button={BikeTrekContent.button}
-          image="EarthWeek-BikeTrek.jpg"
+          image={bikeTrek}
           id="intro"
           scrollTarget="contact"
         />

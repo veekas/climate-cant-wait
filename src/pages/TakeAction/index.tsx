@@ -163,7 +163,7 @@ const Bills = () => {
               </div>
               <br />
               <div>
-                <div>Stay informed</div>
+                <div>Stay Informed</div>
                 <br />
                 Sign up{" "}
                 <a

@@ -46,7 +46,7 @@ const BikeTrek = () => {
                 <ul>
                   <li>
                     <div>
-                      <h2>4/16: Manhattan & Yonkers</h2>
+                      <h2 id="16">4/16: Manhattan & Yonkers</h2>
                       <p>
                         Rally at 9:30am at{" "}
                         <a href="https://www.google.com/maps/place/40%C2%B042'13.6%22N+74%C2%B000'58.1%22W/@40.703764,-74.0166782,181m/data=!3m2!1e3!4b1!4m9!1m2!2m1!1sCastle+Clinton+Plaza,+Battery+Park!3m5!1s0x0:0x1cef14637f6c2324!7e2!8m2!3d40.7037637!4d-74.0161309">
@@ -68,16 +68,16 @@ const BikeTrek = () => {
                   </li>
                   <li>
                     <div>
-                      <h2>4/17: Peekskill</h2>
+                      <h2 id="17">4/17: Peekskill</h2>
                       <p>
                         🚲 23 miles (start at{" "}
                         <a href="https://goo.gl/maps/cPfQT6zvXtKCvDAH9">
                           V.E. Macy Park
                         </a>{" "}
-                        at 10:00am)
+                        at 8:30am)
                       </p>
                       <p>
-                        Rally at 2:00pm at{" "}
+                        Rally at 12:00pm at{" "}
                         <a href="https://goo.gl/maps/hbvbDmLaaDoscnHa7">
                           Peekskill Riverfront Park
                         </a>
@@ -97,7 +97,7 @@ const BikeTrek = () => {
                   </li>
                   <li>
                     <div>
-                      <h2>4/18: Beacon & Newburgh</h2>
+                      <h2 id="18">4/18: Beacon & Newburgh</h2>
                       <p>
                         🚲 40 miles (start at{" "}
                         <a href="https://goo.gl/maps/n4EjyiSUkUxgzUR26">
@@ -135,7 +135,7 @@ const BikeTrek = () => {
                   </li>
                   <li>
                     <div>
-                      <h2>4/19: Poughkeepsie</h2>
+                      <h2 id="19">4/19: Poughkeepsie</h2>
                       <p>
                         🚲 26 miles (start at{" "}
                         <a href="https://goo.gl/maps/n4EjyiSUkUxgzUR26">
@@ -158,7 +158,7 @@ const BikeTrek = () => {
                   </li>
                   <li>
                     <div>
-                      <h2>4/20: New Paltz</h2>
+                      <h2 id="20">4/20: New Paltz</h2>
                       <p>
                         Rally at 12:00pm at{" "}
                         <a href="https://goo.gl/maps/YmhfxTnXjwiS1aYH6">
@@ -174,7 +174,7 @@ const BikeTrek = () => {
                   </li>
                   <li>
                     <div>
-                      <h2>4/21: Hudson</h2>
+                      <h2 id="21">4/21: Hudson</h2>
                       <p>
                         🚲 11 miles (start at{" "}
                         <a href="https://goo.gl/maps/ZxeYzys7iKVo5ioK6">
@@ -197,7 +197,7 @@ const BikeTrek = () => {
                   </li>
                   <li>
                     <div>
-                      <h2>4/22: Albany</h2>
+                      <h2 id="22">4/22: Albany</h2>
                       <p>
                         🚲 3.5 miles (start at{" "}
                         <a href="https://goo.gl/maps/t9XqAg73y7MT3mTL7">

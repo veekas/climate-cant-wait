@@ -4,6 +4,7 @@ import AboutContent from "../../content/AboutContent.json";
 // import ContactContent from "../../content/ContactContent.json";
 import BillsInfo from "../../content/BillsInfo.json";
 import BikeTrekContent from "../../content/BikeTrekContent.json";
+import rally22 from "../../assets/4-22_albany.jpg";
 
 // const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -30,7 +31,7 @@ const Home = () => {
           title={IntroContent.title}
           content={IntroContent.text}
           button={IntroContent.button}
-          image="/4-22_albany.jpg"
+          image={rally22}
           id="intro"
           scrollTarget="about"
         />

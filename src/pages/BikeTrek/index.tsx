@@ -1,6 +1,14 @@
 import { lazy } from "react";
 import TakeActionContent from "../../content/TakeActionContent.json";
 import { Img } from "../../common/Img";
+import rally16 from "../../assets/01_CCW_MarchRally_BatteryParkYonkers_416.jpg";
+import rally17 from "../../assets/02_CCW_MarchRally_Peekskill_417.jpg";
+import rally18 from "../../assets/03_CCW_MarchRally_BeaconNewburgh_418.jpg";
+import rally19 from "../../assets/04_CCW_MarchRally_Poughkeepsie-Highland_419.jpg";
+import rally20 from "../../assets/05_CCW_MarchRally_NewPaltz_420.jpg";
+import rally21 from "../../assets/06_CCW_MarchRally_Hudson_421.jpg";
+import rally22 from "../../assets/4-22_albany.jpg";
+import bikeTrek from "../../assets/EarthWeek-BikeTrek.jpg";
 
 import { TimelineSection } from "./styles";
 
@@ -60,10 +68,7 @@ const BikeTrek = () => {
                           Van Der Donck Park, Yonkers
                         </a>
                       </p>
-                      <Img
-                        src="01_CCW_MarchRally_BatteryParkYonkers_416.jpg"
-                        alt="Graphic for 4/16 Rallies"
-                      />
+                      <Img src={rally16} alt="Graphic for 4/16 Rallies" />
                     </div>
                   </li>
                   <li>
@@ -89,10 +94,7 @@ const BikeTrek = () => {
                         </a>{" "}
                         at 3:00pm)
                       </p>
-                      <Img
-                        src="02_CCW_MarchRally_Peekskill_417.jpg"
-                        alt="Graphic for 4/17 Rally"
-                      />
+                      <Img src={rally17} alt="Graphic for 4/17 Rally" />
                     </div>
                   </li>
                   <li>
@@ -127,10 +129,7 @@ const BikeTrek = () => {
                           Happy Valley Arcade Bar
                         </a>
                       </p>
-                      <Img
-                        src="03_CCW_MarchRally_BeaconNewburgh_418.jpg"
-                        alt="Graphic for 4/18 Rally"
-                      />
+                      <Img src={rally18} alt="Graphic for 4/18 Rally" />
                     </div>
                   </li>
                   <li>
@@ -150,10 +149,7 @@ const BikeTrek = () => {
                         </a>
                       </p>
                       <p>🚲 9 miles to New Paltz</p>
-                      <Img
-                        src="04_CCW_MarchRally_Poughkeepsie-Highland_419.jpg"
-                        alt="Graphic for 4/19 Rally"
-                      />
+                      <Img src={rally19} alt="Graphic for 4/19 Rally" />
                     </div>
                   </li>
                   <li>
@@ -166,10 +162,7 @@ const BikeTrek = () => {
                         </a>
                       </p>
                       <p>🚲 36 miles to Germantown</p>
-                      <Img
-                        src="05_CCW_MarchRally_NewPaltz_420.jpg"
-                        alt="Graphic for 4/20 Rally"
-                      />
+                      <Img src={rally20} alt="Graphic for 4/20 Rally" />
                     </div>
                   </li>
                   <li>
@@ -189,10 +182,7 @@ const BikeTrek = () => {
                         </a>
                       </p>
                       <p>🚲 29 miles to East Greenbush</p>
-                      <Img
-                        src="06_CCW_MarchRally_Hudson_421.jpg"
-                        alt="Graphic for 4/21 Rally"
-                      />
+                      <Img src={rally21} alt="Graphic for 4/21 Rally" />
                     </div>
                   </li>
                   <li>
@@ -218,10 +208,7 @@ const BikeTrek = () => {
                           West Capitol Park, Albany
                         </a>
                       </p>
-                      <Img
-                        src="/4-22_albany.jpg"
-                        alt="Graphic for 4/22 Rally"
-                      />
+                      <Img src={rally22} alt="Graphic for 4/22 Rally" />
                     </div>
                   </li>
                 </ul>
@@ -232,9 +219,7 @@ const BikeTrek = () => {
         />
         <MiddleBlock
           title=""
-          content={
-            <Img src="EarthWeek-BikeTrek.jpg" alt="Graphic for Bike Trek" />
-          }
+          content={<Img src={bikeTrek} alt="Graphic for Bike Trek" />}
           id="intro"
         />
       </Container>

@@ -30,7 +30,7 @@ const Home = () => {
           title={IntroContent.title}
           content={IntroContent.text}
           button={IntroContent.button}
-          image="4-22_albany.jpg"
+          image="/4-22_albany.jpg"
           id="intro"
           scrollTarget="about"
         />

@@ -35,10 +35,13 @@ const BikeTrek = () => {
             <p>
               A group of young climate justice activists are cycling from NYC to
               Albany to build momentum for climate action in Albany! Join us at
-              one of our local rallies, ride with us for a part of the trail,
+              one of our local rallies, ride with us for a part of the trek,
               follow us on social media, or (most importantly) join us when we
               arrive in Albany on April 22nd!
             </p>
+                        <p>
+                        Note: if you would like to ride with us for part of the ride, please read <a href="https://docs.google.com/document/d/17AKBY5ojsRPfHNboV7nKqHzTYxsov1HLupFW5ZE-IjI/edit?usp=sharing">this document</a> beforehand with expectations for guests.
+                      </p>
           }
           button={TakeActionContent.button}
           id="intro"
@@ -162,7 +165,10 @@ const BikeTrek = () => {
                           Hasbrouck Park, New Paltz
                         </a>
                       </p>
-                      <p>🚲 36 miles to Germantown</p>
+                      <p>
+                        🚲 16 miles to Kingston (trekkers will continue another
+                        20 miles to Germantown)
+                      </p>
                       <Img src={rally20} alt="Graphic for 4/20 Rally" />
                     </div>
                   </li>
@@ -170,11 +176,7 @@ const BikeTrek = () => {
                     <div>
                       <h2 id="21">4/21: Hudson</h2>
                       <p>
-                        🚲 11 miles (start at{" "}
-                        <a href="https://goo.gl/maps/ZxeYzys7iKVo5ioK6">
-                          Germantown
-                        </a>{" "}
-                        at 9:30am)
+                        🚲 11 miles from Germantown to Hudson
                       </p>
                       <p>
                         Rally at 11:00am at{" "}

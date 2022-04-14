@@ -67,8 +67,8 @@ const BikeTrek = () => {
                       <p>🚲 10 miles</p>
                       <p>
                         Conversation with <a href="https://www.weact.org/">WE ACT for Environmental Justice</a> at 11:30am at{" "}
-                        <a href="https://goo.gl/maps/4AkEaTUA3MiNEPvY8">
-                          Riverbank State Park (exact meet-up location TBD)
+                        <a href="https://goo.gl/maps/kHr64wPBLew3PnUV8">
+                          Riverbank State Park
                         </a>
                       </p>
                       <p>🚲 12 miles</p>

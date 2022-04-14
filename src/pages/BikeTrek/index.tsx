@@ -167,8 +167,7 @@ const BikeTrek = () => {
                         Event at 2:30pm near the{" "}
                         <a href="https://goo.gl/maps/A5tS8LCZ3on34yDUA">
                           Walkway Over the Hudson
-                        </a>{" "}
-                        (details likely to change; check back on 4/13)
+                        </a>
                       </p>
                       <p>🚲 9 miles to New Paltz</p>
                       <Img src={rally19} alt="Graphic for 4/19 Rally" />

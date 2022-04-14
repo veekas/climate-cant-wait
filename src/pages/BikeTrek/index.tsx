@@ -32,16 +32,23 @@ const BikeTrek = () => {
           style={{ padding: "4rem 0 4rem" }}
           title="CCW's Bike Trek for Climate Action"
           content={
-            <p>
-              A group of young climate justice activists are cycling from NYC to
-              Albany to build momentum for climate action in Albany! Join us at
-              one of our local rallies, ride with us for a part of the trek,
-              follow us on social media, or (most importantly) join us when we
-              arrive in Albany on April 22nd!
-            </p>
-                        <p>
-                        Note: if you would like to ride with us for part of the ride, please read <a href="https://docs.google.com/document/d/17AKBY5ojsRPfHNboV7nKqHzTYxsov1HLupFW5ZE-IjI/edit?usp=sharing">this document</a> beforehand with expectations for guests.
-                      </p>
+            <>
+              <p>
+                A group of young climate justice activists are cycling from NYC
+                to Albany to build momentum for climate action in Albany! Join
+                us at one of our local rallies, ride with us for a part of the
+                trek, follow us on social media, or (most importantly) join us
+                when we arrive in Albany on April 22nd!
+              </p>
+              <p>
+                Note: if you would like to ride with us for part of the ride,
+                please read{" "}
+                <a href="https://docs.google.com/document/d/17AKBY5ojsRPfHNboV7nKqHzTYxsov1HLupFW5ZE-IjI/edit?usp=sharing">
+                  this document
+                </a>{" "}
+                beforehand with expectations for guests.
+              </p>
+            </>
           }
           button={TakeActionContent.button}
           id="intro"
@@ -66,7 +73,11 @@ const BikeTrek = () => {
                       </p>
                       <p>🚲 10 miles</p>
                       <p>
-                        Conversation with <a href="https://www.weact.org/">WE ACT for Environmental Justice</a> at 11:30am at{" "}
+                        Conversation with{" "}
+                        <a href="https://www.weact.org/">
+                          WE ACT for Environmental Justice
+                        </a>{" "}
+                        at 11:30am at{" "}
                         <a href="https://goo.gl/maps/kHr64wPBLew3PnUV8">
                           Riverbank State Park
                         </a>
@@ -87,7 +98,7 @@ const BikeTrek = () => {
                       <p>
                         🚲 23 miles (start at{" "}
                         <a href="https://goo.gl/maps/tchYBBXQ2FCyfKwU7">
-                        South County Trailway Farragut Av Parking
+                          South County Trailway Farragut Av Parking
                         </a>{" "}
                         at 8:30am)
                       </p>
@@ -182,9 +193,7 @@ const BikeTrek = () => {
                   <li>
                     <div>
                       <h2 id="21">4/21: Hudson</h2>
-                      <p>
-                        🚲 11 miles from Germantown to Hudson
-                      </p>
+                      <p>🚲 11 miles from Germantown to Hudson</p>
                       <p>
                         Rally at 11:00am at{" "}
                         <a href="https://goo.gl/maps/MPSHistSM16jb2iN6">

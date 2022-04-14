@@ -94,7 +94,7 @@ const BikeTrek = () => {
                       <p>
                         Rally at 12:00pm at{" "}
                         <a href="https://goo.gl/maps/hbvbDmLaaDoscnHa7">
-                          Peekskill Riverfront Park
+                          Riverfront Green Park, Peekskill
                         </a>
                       </p>
                       <p>

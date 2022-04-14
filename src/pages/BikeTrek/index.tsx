@@ -64,7 +64,14 @@ const BikeTrek = () => {
                           Castle Clinton Plaza, Battery Park
                         </a>
                       </p>
-                      <p>🚲 22 miles</p>
+                      <p>🚲 10 miles</p>
+                      <p>
+                        Conversation with <a href="https://www.weact.org/">WE ACT for Environmental Justice</a> at 11:30am at{" "}
+                        <a href="https://goo.gl/maps/4AkEaTUA3MiNEPvY8">
+                          Riverbank State Park (exact meet-up location TBD)
+                        </a>
+                      </p>
+                      <p>🚲 12 miles</p>
                       <p>
                         Rally at 2:00pm at{" "}
                         <a href="https://goo.gl/maps/A2MS6qxsKdNqBdui7">
@@ -79,8 +86,8 @@ const BikeTrek = () => {
                       <h2 id="17">4/17: Peekskill</h2>
                       <p>
                         🚲 23 miles (start at{" "}
-                        <a href="https://goo.gl/maps/cPfQT6zvXtKCvDAH9">
-                          V.E. Macy Park
+                        <a href="https://goo.gl/maps/tchYBBXQ2FCyfKwU7">
+                        South County Trailway Farragut Av Parking
                         </a>{" "}
                         at 8:30am)
                       </p>
@@ -146,8 +153,8 @@ const BikeTrek = () => {
                         at 10:00am)
                       </p>
                       <p>
-                        Event at 2:00pm on the{" "}
-                        <a href="https://goo.gl/maps/Jjv428jHj34ypJsg7">
+                        Event at 2:30pm near the{" "}
+                        <a href="https://goo.gl/maps/A5tS8LCZ3on34yDUA">
                           Walkway Over the Hudson
                         </a>{" "}
                         (details likely to change; check back on 4/13)

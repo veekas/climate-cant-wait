@@ -2,7 +2,7 @@ import { lazy } from "react";
 import TakeActionContent from "../../content/TakeActionContent.json";
 import { Img } from "../../common/Img";
 import rally16 from "../../assets/01_CCW_MarchRally_BatteryParkYonkers_416.jpg";
-import rally17 from "../../assets/02_CCW_MarchRally_Peekskill_417.jpg";
+// import rally17 from "../../assets/02_CCW_MarchRally_Peekskill_417.jpg";
 import rally18 from "../../assets/03_CCW_MarchRally_BeaconNewburgh_418.jpg";
 import rally19 from "../../assets/04_CCW_MarchRally_Poughkeepsie-Highland_419.jpg";
 import rally20 from "../../assets/05_CCW_MarchRally_NewPaltz_420.jpg";
@@ -115,7 +115,7 @@ const BikeTrek = () => {
                         </a>{" "}
                         at 3:00pm)
                       </p>
-                      <Img src={rally17} alt="Graphic for 4/17 Rally" />
+                      {/* <Img src={rally17} alt="Graphic for 4/17 Rally" /> */}
                     </div>
                   </li>
                   <li>

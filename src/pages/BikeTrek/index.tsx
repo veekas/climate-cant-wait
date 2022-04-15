@@ -3,7 +3,7 @@ import TakeActionContent from "../../content/TakeActionContent.json";
 import { Img } from "../../common/Img";
 import rally16 from "../../assets/01_CCW_MarchRally_BatteryParkYonkers_416.jpg";
 import rally17 from "../../assets/02_CCW_MarchRally_Peekskill_417.png";
-import rally18 from "../../assets/03_CCW_MarchRally_BeaconNewburgh_418.jpg";
+import rally18 from "../../assets/03_CCW_MarchRally_BeaconNewburgh_418.png";
 import rally19 from "../../assets/04_CCW_MarchRally_Poughkeepsie-Highland_419.jpg";
 import rally20 from "../../assets/05_CCW_MarchRally_NewPaltz_420.jpg";
 import rally21 from "../../assets/06_CCW_MarchRally_Hudson_421.jpg";

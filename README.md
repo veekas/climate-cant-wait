@@ -1,5 +1,8 @@
 # todo
 
+- press page
+- 
+
 - fix that picture
 - links to the everyaction email list sign up
 - href => react router

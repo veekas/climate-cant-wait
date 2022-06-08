@@ -1,9 +1,11 @@
 # todo
 
+- update old language
+- take action: call script
+- add a Countdown to the End of Session page where we could post links to the daily memos
 - press page
-- 
 
-- fix that picture
+
 - links to the everyaction email list sign up
 - href => react router
 - group links in footer, **logos**
